@@ -1,0 +1,49 @@
+.menuOptions {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.downloadBtn {
+  font-size: 14px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.hrStyle {
+  margin-top: -5px;
+}
+
+.menuOptionsAfterLG {
+  font-size: 17px;
+  border: 0;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.navbarToggle {
+  font-size: 14px;
+  border: 0;
+}
+
+.navbarToggle:hover {
+  font-size: 14px;
+  background: #EDEDF0;
+  border: 0;
+}
+
+@media (max-width: 767px) {
+  .navOptionBeforeLG {
+    display: none;
+  }
+
+  .navOptionAfterLG {
+    display: block;
+  }
+}
+
+@media (min-width: 767px) {
+  .navOptionAfterLG {
+    display: none;
+  }
+}
+
