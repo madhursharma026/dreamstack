@@ -7,7 +7,8 @@ import styles from "../../styles/Header.module.css";
 function Header() {
     return (
         <Navbar className={`fixed-top  px-xl-0 px-xl-5`} expand="md">
-            <Container>
+            {/* <Container> */}
+            <div className="container-xl">
                 <Navbar.Brand>
                     <Link href='/'>
                         <img src="https://dreamstack.netlify.app/media/img/logos/logo.jpg" alt="#ImgNotFound" width="30px" height='30px' />
@@ -39,7 +40,8 @@ function Header() {
                         <hr className={`${styles.hrStyle}`} />
                     </Nav>
                 </Navbar.Collapse>
-            </Container>
+            {/* </Container> */}
+            </div>
         </Navbar>
     );
 }
