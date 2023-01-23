@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Logo from "../media/logo.jpg";
 import styles from '../../styles/Footer.module.css'
 
 export default function Footer() {
@@ -6,7 +7,7 @@ export default function Footer() {
         <>
             <div className={`${styles.footerBG}`}>
                 <div className={`container-xl ${styles.footerPadding}`}>
-                    <img src="https://dreamstack.netlify.app/media/img/logos/logo.jpg" alt="#ImgNotFound" width="80px" height='80px' />
+                    <img src={Logo.src} alt="#ImgNotFound" width="80px" height='80px' />
                     <hr className={`${styles.hrStyle}`} />
                     <div className="row">
                         <div className="col-md-4 order-md-2 p-0 m-0">
@@ -22,11 +23,11 @@ export default function Footer() {
                         </div>
                         <div className="col-md-8 p-0 m-0">
                             <ul className={`${styles.ulTag} p-3`}>
-                                <li className={`${styles.footerMenu}`} style={{paddingRight:"15px"}}><Link href="/" className={`${styles.footer_options_second}`}>Website Privacy Notice</Link></li>
+                                <li className={`${styles.footerMenu}`} style={{ paddingRight: "15px" }}><Link href="/" className={`${styles.footer_options_second}`}>Website Privacy Notice</Link></li>
                                 <li className={`${styles.footerMenu} px-3`}><Link href="/" className={`${styles.footer_options_second}`}>Cookies</Link></li>
                                 <li className={`${styles.footerMenu} px-3`}><Link href="/" className={`${styles.footer_options_second}`}>Legal</Link></li>
                                 <br />
-                                <li className={`${styles.footerMenu} mt-2`} style={{paddingRight:"15px"}}><Link href="/" className={`${styles.footer_options_second}`}>Community Participation Guidelines</Link></li>
+                                <li className={`${styles.footerMenu} mt-2`} style={{ paddingRight: "15px" }}><Link href="/" className={`${styles.footer_options_second}`}>Community Participation Guidelines</Link></li>
                                 <li className={`${styles.footerMenu} px-3 mt-2`}><Link href="/" className={`${styles.footer_options_second}`}>About this site</Link></li>
                                 <p className={`mt-3 text-white ${styles.footerFacts1}`}>Visit <span className={`${styles.footer_options_second}`}>Dreamstack Corporation’s</span> not-for-profit parent, the <span className={`${styles.footer_options_second}`}>Dreamstack Foundation.</span></p>
                                 <p className={`text-white ${styles.footerFacts2}`}>Portions of this content are ©1998–2023 by individual mozilla.org contributors. Content <br /> available under a  <span className={`${styles.footer_options_second}`}>Creative Commons license.</span></p>

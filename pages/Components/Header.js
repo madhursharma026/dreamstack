@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Logo from "../media/logo.jpg";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import styles from "../../styles/Header.module.css";
@@ -9,7 +10,7 @@ function Header() {
             <div className="container-xl">
                 <Navbar.Brand>
                     <Link href='/'>
-                        <img src="https://dreamstack.netlify.app/media/img/logos/logo.jpg" alt="#ImgNotFound" width="30px" height='30px' />
+                        <img src={Logo.src} alt="#ImgNotFound" width="30px" height='30px' />
                     </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" className={`${styles.navbarToggle}`} />
