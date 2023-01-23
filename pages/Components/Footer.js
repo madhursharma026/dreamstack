@@ -4,7 +4,7 @@ import styles from '../../styles/Footer.module.css'
 export default function Footer() {
     return (
         <>
-            <div className={`fixed-bottom ${styles.footerBG}`}>
+            <div className={`${styles.footerBG}`}>
                 <div className={`container-xl ${styles.footerPadding}`}>
                     <img src="https://dreamstack.netlify.app/media/img/logos/logo.jpg" alt="#ImgNotFound" width="80px" height='80px' />
                     <hr className={`${styles.hrStyle}`} />

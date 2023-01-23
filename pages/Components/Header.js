@@ -1,13 +1,11 @@
 import Link from "next/link";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
 import styles from "../../styles/Header.module.css";
 
 function Header() {
     return (
-        <Navbar className={`fixed-top  px-xl-0 px-xl-5`} expand="md">
-            {/* <Container> */}
+        <Navbar className={`fixed-top px-xl-0 px-xl-5 bg-white`} expand="md">
             <div className="container-xl">
                 <Navbar.Brand>
                     <Link href='/'>
@@ -40,7 +38,6 @@ function Header() {
                         <hr className={`${styles.hrStyle}`} />
                     </Nav>
                 </Navbar.Collapse>
-            {/* </Container> */}
             </div>
         </Navbar>
     );
