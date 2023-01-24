@@ -8,8 +8,8 @@
 }
 
 .ContainerWidth {
-  max-width: 1440px;
-  margin: 0 auto;
+    max-width: 1550px;
+    margin: 0 auto;
 }
 
 .subBody {
@@ -17,6 +17,18 @@
     font-size: 24px !important;
     font-weight: 600;
     font-style: normal;
+}
+
+@media (min-width: 576px) {
+    .ContainerWidth {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
 }
 
 @media (max-width: 767px) {

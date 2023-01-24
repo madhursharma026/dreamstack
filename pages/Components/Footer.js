@@ -5,8 +5,8 @@ import styles from '../../styles/Footer.module.css'
 export default function Footer() {
     return (
         <>
-            <div className={`${styles.footerBG} px-md-4 px-3`}>
-                <div className={`${styles.footerPadding} ${styles.ContainerWidth}`}>
+            <div className={`${styles.footerPadding} ${styles.footerBG} px-md-4 px-3`}>
+                <div className={`${styles.ContainerWidth}`}>
                     <img src={Logo.src} alt="#ImgNotFound" width="80px" height='80px' />
                     <hr className={`${styles.hrStyle}`} />
                     <div className="row">

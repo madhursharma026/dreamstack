@@ -3,8 +3,8 @@
 }
 
 .ContainerWidth {
-  max-width: 1440px;
-  margin: 0 auto;
+    max-width: 1550px;
+    margin: 0 auto;
 }
 
 .footerPadding {
@@ -65,6 +65,18 @@
 .footer_options:hover {
     text-decoration: underline;
     color: white;
+}
+
+@media (min-width: 576px) {
+    .ContainerWidth {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
 }
 
 @media (min-width: 768px) {
