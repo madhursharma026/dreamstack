@@ -39,11 +39,11 @@ export default function KnowledgeSection() {
                             </div>
                         </div>
                         <div className={`row ${styles.sectionRow}`} style={{ display: `${!loadingComplete ? 'none' : ''}` }}>
-                            <div className={`col-xl-7`}>
+                            <div className={`col-xxl-7`}>
                                 <h1 className={`${styles.sectionTitle2}`}>Most CEOs consider Artificial Intelligence the most impactful tech in their tool box today, Gartner's 2022 CEO survey reports.</h1>
                             </div>
-                            <div className={`col-xl-5`}>
-                                <h1 className={`${styles.subHeading} text-black`}>In an ideal state, Artificial Intelligence uses machines, computers mainly, to create a facsimile of human intelligence - but it's not bound by the constraints of an individual mind. 'Weak AI' - a misnomer - performs a specific use-case based function, while 'Strong AI' hopes to become self-aware.</h1>
+                            <div className={`col-xxl-5`}>
+                                <h1 className={`${styles.subHeading} text-black`} style={{lineHeight:'2rem', letterSpacing:".03125rem"}}>In an ideal state, Artificial Intelligence uses machines, computers mainly, to create a facsimile of human intelligence - but it's not bound by the constraints of an individual mind. 'Weak AI' - a misnomer - performs a specific use-case based function, while 'Strong AI' hopes to become self-aware.</h1>
                             </div>
                         </div>
                     </>
