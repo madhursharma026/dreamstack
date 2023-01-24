@@ -2,7 +2,6 @@ import styles from '../../../styles/PartnerSection.module.css'
 
 export default function PartnerSection() {
     return (
-        // <div className={`container-xl py-3`}>
         <div className={`py-3 ${styles.ContainerWidth}`}>
             <div className="row py-3 px-3">
                 <div className="col-md-3 ">
@@ -40,6 +39,5 @@ export default function PartnerSection() {
                 </div>
                 </div>
             </div>
-        // </div>
     )
 }

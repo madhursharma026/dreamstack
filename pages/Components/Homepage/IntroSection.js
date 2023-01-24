@@ -5,7 +5,7 @@ import styles from '../../../styles/IntroSection.module.css';
 
 export default function IntroSection() {
     return (
-        <div className={`p-0 ${styles.section1Content} px-md-4 px-3`}>
+        <div className={`p-0 ${styles.IntroSection} px-md-4 px-3`}>
             <div className={`${styles.ContainerWidth}`}>
                 <div className={`row ${styles.sectionRow} ${styles.paddingTopBottom}`}>
                     <div className={`col-md-6 order-md-2 text-center ${styles.imageColumn}`}>
@@ -24,3 +24,4 @@ export default function IntroSection() {
         </div>
     )
 }
+
