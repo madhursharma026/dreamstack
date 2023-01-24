@@ -2,6 +2,11 @@
     background: #000;
 }
 
+.ContainerWidth {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .footerPadding {
     padding-top: 80px;
     padding-bottom: 80px;

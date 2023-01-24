@@ -1,6 +1,22 @@
+.animationStyle1 {
+  top: 0;
+  transition: top 0.4s ease-out;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.animationStyle2 {
+  top: -80px;
+  transition: top 0.4s ease-out;
+}
+
 .menuOptions {
   font-size: 17px;
   cursor: pointer;
+}
+
+.ContainerWidth {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .downloadBtn {
@@ -39,11 +55,18 @@
   .navOptionAfterLG {
     display: block;
   }
-}
 
-@media (min-width: 767px) {
-  .navOptionAfterLG {
+  .navbarBeforeMD{
     display: none;
   }
 }
 
+@media (min-width: 768px) {
+  .navOptionAfterLG {
+    display: none;
+  }
+
+  .navbarAfterMD{
+    display: none;
+  }
+}
