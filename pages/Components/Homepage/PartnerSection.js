@@ -12,13 +12,13 @@ export default function PartnerSection() {
                     <div className={`col-sm col-6 text-center`}>
                         <div className={`${styles.logoStyle} w-100 pb-0`}>
                             <img src="https://www.nanostuffs.com/img/gold-consulting-partner-nanostuffs.png" alt="#ImgNotFound" className={`w-100 px-lg-3 ${styles.logoSize}`} />
-                            <p style={{ fontSize: "14px!important", marginTop: ".5rem!important", textAlign: 'center!important', fontWeight: '500', lineHeight: '1.5' }}>Salesforce Ridge(Silver) <br /> Consulting Partner</p>
+                            <p className={`${styles.imageInfo}`}>Salesforce Ridge(Silver) <br /> Consulting Partner</p>
                         </div>
                     </div>
                     <div className={`col-sm col-6 text-center`}>
                         <div className={`${styles.logoStyle} w-100 pb-0`}>
                             <img src="https://www.omi.co/wp-content/uploads/2017/12/2015_sfdc_dev_user_official_badge_registered_ISV_Partner_light_RGB_1.0.png" alt="#ImgNotFound" className={`w-100 px-lg-3 ${styles.logoSize}`} />
-                            <p style={{ fontSize: "14px!important", marginTop: ".5rem!important", textAlign: 'center!important', fontWeight: '500', lineHeight: '1.5' }}>ISV Salesforce <br /> Partner</p>
+                            <p className={`${styles.imageInfo}`}>ISV Salesforce <br /> Partner</p>
                         </div>
                     </div>
                     <div className={`col-sm col-6 text-center`}>

@@ -9,7 +9,7 @@ export default function IntroSection() {
             <div className={`${styles.ContainerWidth}`}>
                 <div className={`row ${styles.sectionRow} ${styles.paddingTopBottom}`}>
                     <div className={`col-md-6 order-md-2 text-center ${styles.imageColumn}`}>
-                        <img src={section1Img.src} alt="#ImgNotFound" style={{ width: "65%" }} />
+                        <img src={section1Img.src} alt="#ImgNotFound" className={`${styles.section1Img}`} />
                     </div>
                     <div className={`col-md-6 pb-md-0 pb-5 pt-md-0 pt-5`}>
                         <img src={Logo.src} alt="#ImgNotFound" width='80px' height='80px' />

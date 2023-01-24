@@ -25,8 +25,8 @@ export default function KnowledgeSection() {
                                 <h1 className={`${styles.sectionTitle}`}>Answer a few questions to discover a trove of insights customized for you.</h1>
                             </div>
                             <div className={`col-md-6 col-xxl-4 offset-xxl-1 text-center ${styles.imageColumn}`}>
-                                <div id={`${styles.divpos}`} className='px-2' style={{ borderRadius: "10px" }}>
-                                    <h1 id={`${styles.para4}`} style={{ textAlign: "center" }}>When you hear ‘future tech’ what do you think of?</h1>
+                                <div id={`${styles.divpos}`} className='px-2'>
+                                    <h1 id={`${styles.para4}`}>When you hear ‘future tech’ what do you think of?</h1>
                                     <div style={{ float: 'left' }}>
                                         <img id={`${styles.backButton}`} src={leftArrow.src} alt="back" width="84px" height="80px" onClick={() => callData()} />
                                         <span id={`${styles.buttontext}`}>Metaverse</span>
@@ -48,7 +48,7 @@ export default function KnowledgeSection() {
                         </div>
                     </>
                     :
-                    <div className="text-center" style={{ fontSize: '24px' }}>
+                    <div className="text-center">
                         <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style={{ width: "30px", height: '30px' }}></span>
                         <br />
                         <h1>Ignite your transformation</h1>
