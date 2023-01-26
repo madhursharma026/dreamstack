@@ -37,10 +37,10 @@ function Header() {
                         <Navbar.Toggle aria-controls="navbarScroll" className={`${styles.navbarToggle}`} />
                         <Navbar.Collapse id="navbarScroll">
                             <Nav className={`me-auto my-2 my-lg-0 ${styles.navOptionBeforeLG}`} navbarScroll>
-                                <span className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>What We Do</b></span>
-                                <span className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>Who We Are</b></span>
-                                <span className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>Careers</b></span>
-                                <span className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>Terms</b></span>
+                                <Link href="" className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>What We Do</b></Link>
+                                <Link href="" className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>Who We Are</b></Link>
+                                <Link href="/careers" className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>Careers</b></Link>
+                                <Link href="" className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>Terms</b></Link>
                             </Nav>
                             <div className={`${styles.navOptionBeforeLG}`}>
                                 <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button>
@@ -50,14 +50,14 @@ function Header() {
                                     <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button>
                                 </div>
                                 <hr />
-                                <p className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>What We Do</b></p>
-                                <hr className={`${styles.hrStyle}`} />
-                                <p className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Who We Are</b></p>
-                                <hr className={`${styles.hrStyle}`} />
-                                <p className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Careers</b></p>
-                                <hr className={`${styles.hrStyle}`} />
-                                <p className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Terms</b></p>
-                                <hr className={`${styles.hrStyle}`} />
+                                <Link href="" className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>What We Do</b></Link>
+                                <hr />
+                                <Link href="" className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Who We Are</b></Link>
+                                <hr />
+                                <Link href="/careers" className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Careers</b></Link>
+                                <hr />
+                                <Link href="" className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Terms</b></Link>
+                                <hr />
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
@@ -73,10 +73,10 @@ function Header() {
                     <Navbar.Toggle aria-controls="navbarScroll" className={`${styles.navbarToggle}`} />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className={`me-auto my-2 my-lg-0 ${styles.navOptionBeforeLG}`} navbarScroll>
-                            <span className={`px-3 ${styles.menuOptions}`}><b>What We Do</b></span>
-                            <span className={`px-3 ${styles.menuOptions}`}><b>Who We Are</b></span>
-                            <span className={`px-3 ${styles.menuOptions}`}><b>Careers</b></span>
-                            <span className={`px-3 ${styles.menuOptions}`}><b>Terms</b></span>
+                            <Link href='' className={`px-3 ${styles.menuOptions}`}><b>What We Do</b></Link>
+                            <Link href='' className={`px-3 ${styles.menuOptions}`}><b>Who We Are</b></Link>
+                            <Link href='/careers' className={`px-3 ${styles.menuOptions}`}><b>Careers</b></Link>
+                            <Link href='' className={`px-3 ${styles.menuOptions}`}><b>Terms</b></Link>
                         </Nav>
                         <div className={`${styles.navOptionBeforeLG}`}>
                             <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button>
@@ -86,14 +86,14 @@ function Header() {
                                 <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button>
                             </div>
                             <hr />
-                            <p className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>What We Do</b></p>
-                            <hr className={`${styles.hrStyle}`} />
-                            <p className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Who We Are</b></p>
-                            <hr className={`${styles.hrStyle}`} />
-                            <p className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Careers</b></p>
-                            <hr className={`${styles.hrStyle}`} />
-                            <p className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Terms</b></p>
-                            <hr className={`${styles.hrStyle}`} />
+                            <Link href="" className={`px-3 ${styles.menuOptionsAfterLG}`}><b>What We Do</b></Link>
+                            <hr />
+                            <Link href="" className={`px-3 ${styles.menuOptionsAfterLG}`}><b>Who We Are</b></Link>
+                            <hr />
+                            <Link href="/careers" className={`px-3 ${styles.menuOptionsAfterLG}`}><b>Careers</b></Link>
+                            <hr />
+                            <Link href="" className={`px-3 ${styles.menuOptionsAfterLG}`}><b>Terms</b></Link>
+                            <hr />
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

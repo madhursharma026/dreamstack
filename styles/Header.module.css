@@ -12,6 +12,12 @@
 .menuOptions {
   font-size: 17px;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.menuOptions:hover {
+  color: #000;
 }
 
 .ContainerWidth {
@@ -25,15 +31,17 @@
   border-radius: 5px;
 }
 
-.hrStyle {
-  margin-top: -5px;
-}
-
 .menuOptionsAfterLG {
   font-size: 17px;
   border: 0;
   margin-top: -10px;
   cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.menuOptionsAfterLG:hover{
+color: #000;
 }
 
 .navbarToggle {
