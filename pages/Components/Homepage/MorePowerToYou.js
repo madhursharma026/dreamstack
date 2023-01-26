@@ -4,7 +4,7 @@ import styles from '../../../styles/MorePowerToYou.module.css'
 export default function MorePowerToYou() {
     return (
         <div style={{ background: "#F9F9FB" }}>
-            <div className={`pt-5 mt-5 ${styles.ContainerWidth}`}>
+            <div className={`py-5 mt-5 ${styles.ContainerWidth}`}>
                 <div className="row px-3 text-center">
                     <div className={`col-md-6`}>
                         <img className='w-100' src="https://images.ctfassets.net/w5er3c7zdgmd/3vukypoPTTpRYctNjWoUkc/03dfba34b9aab288f7c25d257a621cf0/billboard-more-power-high-res.5e9e07e1024c.png?w=800" alt="#ImgNotFound" style={{ maxWidth: '500px', maxHeight: "500px" }} />
