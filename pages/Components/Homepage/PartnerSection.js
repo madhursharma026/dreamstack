@@ -2,8 +2,8 @@ import styles from '../../../styles/PartnerSection.module.css'
 
 export default function PartnerSection() {
     return (
-        <div className={`py-3 ${styles.ContainerWidth}`}>
-            <div className="row py-3 px-3">
+        <div className={`pt-3 my-3 ${styles.ContainerWidth}`}>
+            <div className="row px-3">
                 <div className="col-md-3 ">
                     <p className={`${styles.subHeading}`}>Meet our Tech Partners</p>
                     <p className={`${styles.subBody}`}>Our Association with Top Ventures</p>
