@@ -1,5 +1,5 @@
 import DitchTheOffice from "./Components/Careers/DitchTheOffice";
-import Positions from "./Components/Careers/positions";
+import Positions from "./Components/Careers/Positions";
 import ReadAll from "./Components/Careers/ReadAll";
 import Review from "./Components/Careers/Review";
 import Section1 from "./Components/Careers/Section1";
