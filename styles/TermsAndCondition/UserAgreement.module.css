@@ -1,0 +1,37 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.UserAgreementContent {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+}
+
+.sectionTitle {
+    font-size: calc(30px + 1.25vw);
+}
+
+.subHeading{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.sectionBody {
+    font-size: 1.125rem;
+    line-height: 1.25;
+}
+
+@media (min-width: 576px) {
+    .ContainerWidth {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}

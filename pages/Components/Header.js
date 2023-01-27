@@ -40,7 +40,7 @@ function Header() {
                                 <Link href="" className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>What We Do</b></Link>
                                 <Link href="" className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>Who We Are</b></Link>
                                 <Link href="/careers" className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>Careers</b></Link>
-                                <Link href="" className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>Terms</b></Link>
+                                <Link href="/TermsAndCondition" className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>Terms</b></Link>
                             </Nav>
                             <div className={`${styles.navOptionBeforeLG}`}>
                                 <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button>
@@ -56,7 +56,7 @@ function Header() {
                                 <hr />
                                 <Link href="/careers" className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Careers</b></Link>
                                 <hr />
-                                <Link href="" className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Terms</b></Link>
+                                <Link href="/TermsAndCondition" className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Terms</b></Link>
                                 <hr />
                             </Nav>
                         </Navbar.Collapse>
@@ -76,7 +76,7 @@ function Header() {
                             <Link href='' className={`px-3 ${styles.menuOptions}`}><b>What We Do</b></Link>
                             <Link href='' className={`px-3 ${styles.menuOptions}`}><b>Who We Are</b></Link>
                             <Link href='/careers' className={`px-3 ${styles.menuOptions}`}><b>Careers</b></Link>
-                            <Link href='' className={`px-3 ${styles.menuOptions}`}><b>Terms</b></Link>
+                            <Link href='/TermsAndCondition' className={`px-3 ${styles.menuOptions}`}><b>Terms</b></Link>
                         </Nav>
                         <div className={`${styles.navOptionBeforeLG}`}>
                             <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button>
@@ -92,7 +92,7 @@ function Header() {
                             <hr />
                             <Link href="/careers" className={`px-3 ${styles.menuOptionsAfterLG}`}><b>Careers</b></Link>
                             <hr />
-                            <Link href="" className={`px-3 ${styles.menuOptionsAfterLG}`}><b>Terms</b></Link>
+                            <Link href="/TermsAndCondition" className={`px-3 ${styles.menuOptionsAfterLG}`}><b>Terms</b></Link>
                             <hr />
                         </Nav>
                     </Navbar.Collapse>
