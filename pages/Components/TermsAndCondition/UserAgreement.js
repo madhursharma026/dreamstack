@@ -322,21 +322,7 @@ export default function UserAgreement() {
                     <p className={`${styles.sectionBody}`}>
                         If you choose to use the Services to conduct a promotion, including a contest or sweepstakes (“<b>Promotion</b>”), you alone are responsible for conducting the Promotion in compliance with all applicable laws and regulations, including but not limited to creating official rules, offer terms, eligibility requirements, and compliance with applicable laws, rules, and regulations which govern the Promotion (such as licenses, registrations, bonds, and regulatory approval). Your Promotion must state that the Promotion is not sponsored by, endorsed by, or associated with Dreamstack, and the rules for your Promotion must require each entrant or participant to release Dreamstack from any liability related to the Promotion. You acknowledge and agree that we will not assist you in any way with your promotion, and you agree to conduct your Promotion at your own risk.
                     </p>
-
-                    <p className={`${styles.subHeading}`}>7. Things You Cannot Do</p>
-                    <p className={`${styles.sectionBody}`}>
-                        When using or accessing Dreamstack, you must comply with these Terms and all applicable laws, rules, and regulations. Please review the <Link href="/">Content Policy</Link> (and, where applicable, the <Link href="/">Broadcasting Content Policy</Link>), which are incorporated by this reference into, and made a part of, these Terms and contain Reddit’s rules about prohibited content and conduct. In addition to what is prohibited in the <Link href="/">Content Policy</Link>, you may not do any of the following:
-                    </p>
-                    <ul>
-                        <li className={`${styles.sectionBody} pt-2`}>Use the Services in any manner that could interfere with, disable, disrupt, overburden, or otherwise impair the Service;</li>
-                        <li className={`${styles.sectionBody} pt-2`}>Gain access to (or attempt to gain access to) another user’s Account or any non-public portions of the Services, including the computer systems or networks connected to or used together with the Services;</li>
-                        <li className={`${styles.sectionBody} pt-2`}>Upload, transmit, or distribute to or through the Services any viruses, worms, malicious code, or other software intended to interfere with the Services, including its security-related features;</li>
-                        <li className={`${styles.sectionBody} pt-2`}>Use the Services to violate applicable law or infringe any person’s or entity's intellectual property rights or any other proprietary rights;</li>
-                        <li className={`${styles.sectionBody} pt-2`}>Access, search, or collect data from the Services by any means (automated or otherwise) except as permitted in these Terms or in a separate agreement with Dreamstack (we conditionally grant permission to crawl the Services in accordance with the parameters set forth in our robots.txt file, but scraping the Services without Reddit’s prior consent is prohibited); or</li>
-                        <li className={`${styles.sectionBody} pt-2`}>Use the Services in any manner that we reasonably believe to be an abuse of or fraud on Dreamstack or any payment system</li>
-                    </ul>
-                    <p className={`${styles.sectionBody}`}>We encourage you to <Link href="/">report</Link> content or conduct that you believe violates these Terms or our <Link href="/">Content Policy</Link>. We also support the responsible reporting of security vulnerabilities. To report a security issue, please email <Link href="/">security@dreamstack.com</Link>.</p>
-
+                    
                     <p className={`${styles.subHeading}`}>7. Things You Cannot Do</p>
                     <p className={`${styles.sectionBody}`}>
                         When using or accessing Dreamstack, you must comply with these Terms and all applicable laws, rules, and regulations. Please review the <Link href="/">Content Policy</Link> (and, where applicable, the <Link href="/">Broadcasting Content Policy</Link>), which are incorporated by this reference into, and made a part of, these Terms and contain Reddit’s rules about prohibited content and conduct. In addition to what is prohibited in the <Link href="/">Content Policy</Link>, you may not do any of the following:
@@ -457,7 +443,7 @@ export default function UserAgreement() {
                         These Terms are a legally-binding agreement between you and Dreamstack, Inc. If you have any questions about these terms, please <Link href="/">contact us</Link>.
                     </p>
 
-                    <p className={`${styles.subHeading}`}>8. Contact Details</p>
+                    <p className={`${styles.subHeading}`}>18. Contact Details</p>
                     <p className={`${styles.sectionBody}`}>
                         Dreamstack, Inc. <br />
                         1455 Market Street, Suite 1600 <br />
