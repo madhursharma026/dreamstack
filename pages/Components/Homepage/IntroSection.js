@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Logo from "../../media/logo.jpg";
 import section1Img from "../../media/section1Img.png";
-import styles from '../../../styles/IntroSection.module.css';
+import styles from '../../../styles/Homepage/IntroSection.module.css';
 
 export default function IntroSection() {
     return (

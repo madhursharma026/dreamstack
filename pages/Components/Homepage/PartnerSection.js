@@ -1,4 +1,4 @@
-import styles from '../../../styles/PartnerSection.module.css'
+import styles from '../../../styles/Homepage/PartnerSection.module.css'
 
 export default function PartnerSection() {
     return (

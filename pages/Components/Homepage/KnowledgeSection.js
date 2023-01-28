@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import leftArrow from "../../media/leftArrow.png";
 import rightArrow from "../../media/rightArrow.png";
-import styles from '../../../styles/KnowledgeSection.module.css';
+import styles from '../../../styles/Homepage/KnowledgeSection.module.css';
 
 export default function KnowledgeSection() {
     const [loading, setLoading] = useState(false)

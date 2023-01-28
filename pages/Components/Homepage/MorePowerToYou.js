@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from '../../../styles/MorePowerToYou.module.css'
+import styles from '../../../styles/Homepage/MorePowerToYou.module.css'
 
 export default function MorePowerToYou() {
     return (

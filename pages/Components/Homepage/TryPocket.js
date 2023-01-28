@@ -1,4 +1,4 @@
-import styles from '../../../styles/TryPocket.module.css'
+import styles from '../../../styles/Homepage/TryPocket.module.css'
 
 export default function TryPocket() {
     return (

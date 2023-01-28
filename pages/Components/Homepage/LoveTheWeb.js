@@ -1,4 +1,4 @@
-import styles from '../../../styles/LoveTheWeb.module.css'
+import styles from '../../../styles/Homepage/LoveTheWeb.module.css'
 
 export default function LoveTheWeb() {
     return (
