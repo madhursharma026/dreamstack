@@ -1,9 +1,17 @@
 import styles from '../../../styles/careers/Positions.module.css';
 import Accordion from 'react-bootstrap/Accordion';
+import { useRef } from 'react';
+import { useEffect, useState } from "react";
 
 export default function Positions() {
+    const myRef = useRef()
+
+    useEffect(() => {
+        localStorage.setItem('positionHeight', myRef.current.offsetTop);
+    }, []);
+
     return (
-        <div className={`px-md-4 px-3 py-md-5`}>
+        <div className={`px-md-4 px-3 py-md-5 py-3`} ref={myRef}>
             <div className={`${styles.ContainerWidth}`}>
                 <h1 className={`${styles.sectionTitle} text-center py-md-5 py-3`}><b>Open positions at Hubstaff</b></h1>
 

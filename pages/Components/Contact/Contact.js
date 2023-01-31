@@ -17,19 +17,6 @@ export default function ContactModule() {
                                     If you have any questions about Hubstaff Time, Hubstaff Desk, Hubstaff Field, Hubstaff Tasks, or Hubstaff Talent, please contact us in English through the support chat or email us at <br />
                                     <Link href="/" className={`${styles.supportedLink}`}>support@hubstaff.com</Link>
                                 </p>
-
-                                <hr />
-                                <h1 className={`${styles.subHeading}`}><b>Live chat</b></h1>
-                                <p className={`${styles.sectionBody} text-muted`} style={{ marginTop: "-10px" }}>
-                                    Don’t like phone calls? We get it
-                                </p>
-                                <button type="button" class="btn btn-outline-primary">Chat with us</button>
-
-                                <h1 className={`${styles.subHeading} mt-3`}><b>Product demo</b></h1>
-                                <p className={`${styles.sectionBody} text-muted`} style={{ marginTop: "-10px" }}>
-                                    Our product specialist will give you a full run-down of Hubstaff
-                                </p>
-                                <button type="button" class="btn btn-outline-primary">Book a demo</button>
                             </div>
                             <div style={{ background: "#F5F7FA" }} className='mt-5 py-3 px-3'>
                                 <div style={{ maxWidth: "550px" }}>
@@ -48,18 +35,6 @@ export default function ContactModule() {
                                         <input type="email" class="form-control" id="PhoneNumber" placeholder="+1 (123) 456-7890" />
                                     </div>
                                     <button type="button" class={`btn ${styles.callMeBack} my-5`}>Call me back</button>
-                                    <p className={`${styles.sectionBody} text-muted`}><span className='text-black'>Phone call</span> Available 3:00 - 21:00 EST Monday to Friday
-                                        <br />
-                                        UK <Link href="/" className={`${styles.supportedLink}`}>+44 20 4525 1373</Link> US <Link href="/" className={`${styles.supportedLink}`}>+1 317 482 7165</Link>
-                                    </p>
-                                    <p className={`${styles.sectionBody} text-muted`}><span className='text-black'>Email us</span> Too busy to chat? Email us & we’ll get back ASAP
-                                        <br />
-                                        <Link href="/" className={`${styles.supportedLink}`}>support@hubstaff.com</Link>
-                                    </p>
-                                    <p className={`${styles.sectionBody} text-muted`}><span className='text-black'>Mailing address</span>
-                                        <br />
-                                        11650 Olio Road, Suite #1000 - 193 Fishers, IN 46037
-                                    </p>
                                 </div>
                             </div>
                         </div>

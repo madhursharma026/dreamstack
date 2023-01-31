@@ -27,7 +27,7 @@ function Header() {
     return (
         <>
             <div className={`${styles.navbarBeforeMD}`}>
-                <Navbar className={`fixed-top px-md-4 px-3 bg-white ${visible ? styles.animationStyle1 : styles.animationStyle2}`} expand="md">
+                <Navbar className={`fixed-top px-md-4 px-3 bg-white ${visible ? styles.animationStyle1 : styles.animationStyle2}`} expand="md" style={{height:"65px"}}>
                     <Navbar className={`${styles.ContainerWidth} w-100`}>
                         <Navbar.Brand>
                             <Link href='/'>
