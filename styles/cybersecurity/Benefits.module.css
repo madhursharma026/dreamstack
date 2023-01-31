@@ -1,0 +1,16 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+    .ContainerWidth {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+}
