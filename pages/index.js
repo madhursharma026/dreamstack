@@ -6,12 +6,14 @@ import KnowledgeSection from "./Components/Homepage/KnowledgeSection";
 import LoveTheWeb from "./Components/Homepage/LoveTheWeb";
 import TryPocket from "./Components/Homepage/TryPocket";
 import MorePowerToYou from "./Components/Homepage/MorePowerToYou";
+import CustomersSlider from "./Components/Homepage/CustomersSlider";
 
 export default function Home() {
   return (
     <>
       <Header />
       <IntroSection />
+      <CustomersSlider />
       <PartnerSection />
       <KnowledgeSection />
       <LoveTheWeb />
