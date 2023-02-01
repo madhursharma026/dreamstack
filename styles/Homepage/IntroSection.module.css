@@ -4,7 +4,7 @@
 }
 
 .ContainerWidth {
-    max-width: 1550px;
+    /* max-width: 1550px; */
     margin: 0 auto;
 }
 
@@ -12,21 +12,13 @@
     font-size: calc(30px + 1.25vw);
 }
 
-.section1Img{
-    width: 65%;
-}
-
-.imageColumn {
-    margin: auto;
-}
-
 .sectionBody {
     font-size: 1.125rem;
     line-height: 1.5;
 }
 
-.paddingTopBottom {
-    padding-top: 96px;
+.imgStyle {
+    clip-path: polygon(0 0, 100% 0, 100% 70%, -25px 100%);
 }
 
 .installBtn {
@@ -56,18 +48,21 @@
     .ContainerWidth {
         padding: 0 60px;
     }
-}
 
-@media (min-width: 768px) {
-    .paddingTopBottom {
-        padding-bottom: 96px;
+    .rightSide {
+        margin-top: 70px;
+        max-width: 700px;
+        float: right;
+    }
+
+    .imgStyle {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+        min-width: 800px;
     }
 }
 
-@media (max-width: 767px) {
-    .sectionRow {
+@media (max-width: 991px) {
+    .rightSide {
         text-align: center;
     }
 }
-
-

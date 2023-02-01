@@ -1,5 +1,5 @@
 .ContainerWidth {
-    max-width: 1550px;
+    /* max-width: 1550px; */
     margin: 0 auto;
 }
 
@@ -17,8 +17,8 @@
     border: 2px solid #253053;
     color: white;
     /* font-size: calc(14px + 0.20vw); */
-    font-size: 18px;
-    padding: 20px 20px;
+    font-size: 16px;
+    padding: 12px 15px;
 }
 
 .openPositionBtn:hover {
@@ -32,14 +32,17 @@
     border: 2px solid white;
     color: white;
     /* font-size: calc(14px + 0.20vw); */
-    font-size: 18px;
-    padding: 20px 20px;
+    font-size: 16px;
+    padding: 12px 15px;
 }
 
 .salesBtn:hover {
     background: white;
     border: 2px solid #021fa9;
     color: #021fa9;
+}
+.imgStyle {
+    clip-path: polygon(0 0,100% 0,100% 70%,-25px 100%);
 }
 
 @media (min-width: 576px) {
@@ -56,6 +59,10 @@
     .rightSide{
         max-width: 600px;
         float: right;
+    }
+    .imgStyle {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+        min-width: 800px;
     }
 }
 
