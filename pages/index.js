@@ -7,6 +7,7 @@ import LoveTheWeb from "./Components/Homepage/LoveTheWeb";
 import TryPocket from "./Components/Homepage/TryPocket";
 import MorePowerToYou from "./Components/Homepage/MorePowerToYou";
 import CustomersSlider from "./Components/Homepage/CustomersSlider";
+import Productivity from "./Components/Homepage/productivity";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <IntroSection />
       <CustomersSlider />
       <PartnerSection />
+      <Productivity />
       <KnowledgeSection />
       <LoveTheWeb />
       <TryPocket />

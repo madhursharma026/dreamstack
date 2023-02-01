@@ -62,7 +62,7 @@ export default function Services() {
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="2">
+                    <Accordion.Item eventKey="3">
                         <Accordion.Header><b>Cyber-physical security</b></Accordion.Header>
                         <Accordion.Body>
                             <div className="row">
@@ -77,7 +77,7 @@ export default function Services() {
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="3">
+                    <Accordion.Item eventKey="4">
                         <Accordion.Header><b>Privacy and data protection</b></Accordion.Header>
                         <Accordion.Body>
                             <div className="row">
@@ -92,7 +92,7 @@ export default function Services() {
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="4">
+                    <Accordion.Item eventKey="5">
                         <Accordion.Header><b>Incident response and rapid recovery</b></Accordion.Header>
                         <Accordion.Body>
                             <div className="row">
@@ -107,7 +107,7 @@ export default function Services() {
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="5">
+                    <Accordion.Item eventKey="6">
                         <Accordion.Header><b>Cybersecurity advisory and consulting</b></Accordion.Header>
                         <Accordion.Body>
                             <div className="row">

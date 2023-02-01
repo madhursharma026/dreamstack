@@ -1,0 +1,52 @@
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.sectionTitle {
+    font-size: calc(20px + 1.25vw);
+    font-weight: 550;
+}
+
+.sectionBody {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+
+    .cardBeforeMDScrn {
+        display: none;
+    }
+
+    .cardAfterMDScrn {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .cardBeforeLGScrn {
+        display: none;
+    }
+
+    .cardBeforeMDScrn {
+        display: block;
+    }
+
+    .cardAfterMDScrn {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .cardBeforeMDScrn {
+        display: none;
+    }
+
+    .cardAfterMDScrn {
+        display: block;
+    }
+}
