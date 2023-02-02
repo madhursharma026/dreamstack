@@ -2,7 +2,7 @@ import styles from '../../../styles/Homepage/PartnerSection.module.css'
 
 export default function PartnerSection() {
     return (
-        <div className={`pt-3 my-3 ${styles.ContainerWidth}`}>
+        <div className={`pt-3 my-md-5 my-3 ${styles.ContainerWidth}`}>
             <div className="row px-3">
                 <div className="col-md-3 ">
                     <p className={`${styles.subHeading}`}>Meet our Tech Partners</p>

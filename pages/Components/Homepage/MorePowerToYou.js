@@ -3,7 +3,7 @@ import styles from '../../../styles/Homepage/MorePowerToYou.module.css'
 
 export default function MorePowerToYou() {
     return (
-        <div style={{ background: "#F9F9FB" }}>
+        // <div style={{ background: "#F9F9FB" }}>
             <div className={`py-5 mt-5 ${styles.ContainerWidth}`}>
                 <div className="row px-3 text-center">
                     <div className={`col-md-6`}>
@@ -16,6 +16,6 @@ export default function MorePowerToYou() {
                     </div>
                 </div>
             </div>
-        </div>
+        // </div>
     )
 }

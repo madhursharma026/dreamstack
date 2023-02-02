@@ -52,7 +52,7 @@ export default function KnowledgeSection() {
         }, 3000)
     }
     return (
-        <div className="bg-black mb-5">
+        <div className="bg-black">
             <div className={`p-0 px-md-4 px-3 py-5`}>
                 <div className={`${styles.ContainerWidth}`} style={{ minHeight: '300px' }}>
                     {!loading ?

@@ -8,19 +8,21 @@ import TryPocket from "./Components/Homepage/TryPocket";
 import MorePowerToYou from "./Components/Homepage/MorePowerToYou";
 import CustomersSlider from "./Components/Homepage/CustomersSlider";
 import Productivity from "./Components/Homepage/productivity";
+import PartnerWithUs from "./Components/Homepage/PartnerWithUs";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <IntroSection />
+      <MorePowerToYou />
       <CustomersSlider />
-      <PartnerSection />
       <Productivity />
       <KnowledgeSection />
+      <PartnerWithUs />
+      {/* <PartnerSection /> */}
       <LoveTheWeb />
-      <TryPocket />
-      <MorePowerToYou />
+      {/* <IntroSection />
+      <TryPocket /> */}
       <Footer />
     </>
   )
