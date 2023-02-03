@@ -2,13 +2,16 @@ import Link from "next/link";
 import Logo from "../media/logo.jpg";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Dropdown from 'react-bootstrap/Dropdown';
 import React, { useEffect, useState } from "react";
 import styles from "../../styles/Header.module.css";
+
 
 function Header() {
 
     const [visible, setVisible] = useState(true)
     const [position, setPosition] = useState("")
+    const [isShown, setIsShown] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -26,8 +29,28 @@ function Header() {
 
     return (
         <>
-            <div className={`${styles.navbarBeforeMD}`}>
-                <Navbar className={`fixed-top px-md-4 px-3 bg-white ${visible ? styles.animationStyle1 : styles.animationStyle2}`} expand="md" style={{height:"65px"}}>
+            <div className={`${styles.navbarBeforeMD}`} onMouseLeave={() => setIsShown(false)}>
+                {isShown && (
+                    <div style={{ background: "#1E2222", width: '100%', position: "absolute", zIndex: '1' }} onMouseLeave={() => setIsShown(false)}>
+                        <div className={`${styles.ContainerWidth} w-100 py-5 mt-4`}>
+                            <div className="row">
+                                <div className="col-xl-3 col-4">
+                                    <ul className={`${styles.menuULTagStyle}`}>
+                                        <Link href="/cloud" style={{ textDecoration: 'none' }} className='text-white'><li className={`${styles.menuLITagStyle} p-2`}>Cloud</li></Link>
+                                        <Link href="/DataAndAnalytics" style={{ textDecoration: 'none' }} className='text-white'><li className={`${styles.menuLITagStyle} p-2`}>Data & Analytic</li></Link>
+                                        <Link href="/cybersecurity" style={{ textDecoration: 'none' }} className='text-white'><li className={`${styles.menuLITagStyle} p-2`}>Cybersecurity</li></Link>
+                                        <Link href="/enterprise" style={{ textDecoration: 'none' }} className='text-white'><li className={`${styles.menuLITagStyle} p-2`}>Enterprise solution</li></Link>
+                                    </ul>
+                                </div>
+                                <div className={`col-xl-9 col-8 ${styles.navbarMenuWidth}`}>
+                                    <h3 className="text-white">TCS is here to make a difference through technology.</h3>
+                                    <p className={`${styles.sectionBody} text-white pt-3`}>Leading the way in innovation for over 50 years, we build greater futures for businesses across multiple industries and 131 countries.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )}
+                <Navbar className={`fixed-top px-md-4 px-3 bg-white ${visible ? styles.animationStyle1 : styles.animationStyle2}`} expand="md" style={{ height: "65px" }}>
                     <Navbar className={`${styles.ContainerWidth} w-100`}>
                         <Navbar.Brand>
                             <Link href='/'>
@@ -37,10 +60,10 @@ function Header() {
                         <Navbar.Toggle aria-controls="navbarScroll" className={`${styles.navbarToggle}`} />
                         <Navbar.Collapse id="navbarScroll">
                             <Nav className={`me-auto my-2 my-lg-0 ${styles.navOptionBeforeLG}`} navbarScroll>
-                                <Link href="" className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>What We Do</b></Link>
-                                <Link href="" className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>Who We Are</b></Link>
-                                <Link href="/careers" className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>Careers</b></Link>
-                                <Link href="/TermsAndCondition" className={`px-lg-3 px-2 ${styles.menuOptions}`}><b>Terms</b></Link>
+                                <p className={`px-lg-3 px-2 pt-3 ${styles.menuOptions}`} onMouseEnter={() => setIsShown(true)}><b>What We Do</b></p>
+                                <Link href="/" className={`px-lg-3 px-2 pt-3 ${styles.menuOptions}`} onMouseEnter={() => setIsShown(false)}><b>Who We Are</b></Link>
+                                <Link href="/careers" className={`px-lg-3 px-2 pt-3 ${styles.menuOptions}`} onMouseEnter={() => setIsShown(false)}><b>Careers</b></Link>
+                                <Link href="/TermsAndCondition" className={`px-lg-3 px-2 pt-3 ${styles.menuOptions}`} onMouseEnter={() => setIsShown(false)}><b>Terms</b></Link>
                             </Nav>
                             <div className={`${styles.navOptionBeforeLG}`}>
                                 <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button>
@@ -63,6 +86,7 @@ function Header() {
                     </Navbar>
                 </Navbar>
             </div>
+
             <div className={`${styles.navbarAfterMD}`}>
                 <Navbar className={`fixed-top px-xl-0 px-xl-5 bg-white px-md-4 px-3  ${visible ? styles.animationStyle1 : styles.animationStyle2}`} expand="md">
                     <Navbar.Brand>
@@ -85,15 +109,38 @@ function Header() {
                             <div style={{ display: "flex", justifyContent: "center" }}>
                                 <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button>
                             </div>
-                            <hr />
-                            <Link href="" className={`px-3 ${styles.menuOptionsAfterLG}`}><b>What We Do</b></Link>
-                            <hr />
-                            <Link href="" className={`px-3 ${styles.menuOptionsAfterLG}`}><b>Who We Are</b></Link>
-                            <hr />
-                            <Link href="/careers" className={`px-3 ${styles.menuOptionsAfterLG}`}><b>Careers</b></Link>
-                            <hr />
-                            <Link href="/TermsAndCondition" className={`px-3 ${styles.menuOptionsAfterLG}`}><b>Terms</b></Link>
-                            <hr />
+                            <Dropdown className="mt-4">
+                                <Dropdown.Toggle id="dropdown-basic" className="py-3" style={{ background: "transparent", width: "100%", color: "black", textAlign: "left", borderRadius: "0", borderColor: "black", borderRight: '0', borderLeft: "0", borderBottom: '0' }}>
+                                    <b>What We Do</b>
+                                </Dropdown.Toggle>
+                                <Dropdown.Menu className="mb-3">
+                                    <ul className={`${styles.menuULTagStyle} px-4`}>
+                                        <Link href="/cloud" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><b>Cloud</b></Link>
+                                        <Link href="/DataAndAnalytics" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><b>Data & Analytic</b></Link>
+                                        <Link href="/cybersecurity" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><b>Cybersecurity</b></Link>
+                                        <Link href="/enterprise" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><b>Enterprise solution</b></Link>
+                                    </ul>
+                                </Dropdown.Menu>
+                            </Dropdown>
+                            <Dropdown>
+                                <Dropdown.Toggle id="dropdown-basic" className="py-3" style={{ background: "transparent", width: "100%", color: "black", textAlign: "left", borderRadius: "0", borderColor: "black", borderRight: '0', borderLeft: "0", borderBottom: '0' }}>
+                                    <b>Who We Are</b>
+                                </Dropdown.Toggle>
+                            </Dropdown>
+                            <Link href="/careers">
+                                <Dropdown>
+                                    <Dropdown.Toggle id="dropdown-basic" className="py-3" style={{ background: "transparent", width: "100%", color: "black", textAlign: "left", borderRadius: "0", borderColor: "black", borderRight: '0', borderLeft: "0", borderBottom: '0' }}>
+                                        <b>Careers</b>
+                                    </Dropdown.Toggle>
+                                </Dropdown>
+                            </Link>
+                            <Link href="/TermsAndCondition">
+                                <Dropdown>
+                                    <Dropdown.Toggle id="dropdown-basic" className="py-3" style={{ background: "transparent", width: "100%", color: "black", textAlign: "left", borderRadius: "0", borderColor: "black", borderRight: '0', borderLeft: "0" }}>
+                                        <b>Terms</b>
+                                    </Dropdown.Toggle>
+                                </Dropdown>
+                            </Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
