@@ -1,9 +1,62 @@
 import Link from 'next/link';
+import emailjs from "emailjs-com";
+import { useState, useEffect } from 'react';
+import Snackbar from '@mui/material/Snackbar';
+import { Alert } from '@mui/material';
 import styles from '../../../styles/Contact/contact.module.css';
 
 export default function ContactModule() {
+
+    const [fullName, setFullName] = useState("")
+    const [emailAddress, setEmailAddress] = useState("")
+    const [phoneNumber, setPhoneNumber] = useState("")
+    const [open, setOpen] = useState(false);
+    const [AlertMessage, setAlertMessage] = useState("")
+    const [AlertMessageBg, setAlertMessageBg] = useState("")
+
+    const handleClick = () => {
+        setOpen(true);
+    };
+
+    const handleClose = (reason) => {
+        if (reason === 'clickaway') {
+            return;
+        }
+        setOpen(false);
+    };
+
+
+    function sendEmail(e) {
+        e.preventDefault()
+
+        emailjs.sendForm(
+            "service_y3z8i9o",
+            "template_iyhuyja",
+            e.target,
+            "IKf1WKmDxxkLI6eTQ"
+        ).then(res => {
+            setFullName("")
+            setEmailAddress("")
+            setPhoneNumber("")
+            console.log(res)
+            setAlertMessageBg("success")
+            setAlertMessage("Email Sent Successfully!!!")
+            handleClick()
+        }).catch(err => {
+            console.log(err)
+            setAlertMessageBg("danger")
+            setAlertMessage(err)
+            handleClick()
+        })
+    }
+
     return (
         <>
+            <Snackbar open={open} autoHideDuration={2000} onClose={handleClose}>
+                <Alert onClose={handleClose} className={`text-white bg-${AlertMessageBg}`}>
+                    {AlertMessage}
+                </Alert>
+            </Snackbar>
             <div className={`p-0 px-lg-4 px-3`}>
                 <div className={`${styles.ContainerWidth}`}>
                     <div className={`row`}>
@@ -22,19 +75,22 @@ export default function ContactModule() {
                                 <div style={{ maxWidth: "550px" }}>
                                     <h1 className={`${styles.subHeading2} mt-3`}><b>Couldn't get ahold of us?</b></h1>
                                     <p className={`${styles.sectionBody} text-muted`}>Request a callback and we'll get back to you.</p>
-                                    <div class="mb-3">
-                                        <label for="FullName" class="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Full Name</label>
-                                        <input type="email" class="form-control" id="FullName" placeholder="What's your name?" />
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="EmailAddress" class="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Email</label>
-                                        <input type="email" class="form-control" id="EmailAddress" placeholder="Enter your email" />
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="PhoneNumber" class="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Phone Number</label>
-                                        <input type="email" class="form-control" id="PhoneNumber" placeholder="+1 (123) 456-7890" />
-                                    </div>
-                                    <button type="button" class={`btn ${styles.callMeBack} my-5`}>Call me back</button>
+                                    <form onSubmit={(e) => sendEmail(e)}>
+                                        <div class="mb-3">
+                                            <label for="fullName" class="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Full Name</label>
+                                            <input type="text" class="form-control" id="fullName" name='fullName' placeholder="What's your name?" required onChange={(e) => setFullName(e.target.value)} value={fullName} />
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="emailAddress" class="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Email</label>
+                                            <input type="email" class="form-control" id="emailAddress" name='emailAddress' placeholder="Enter your email" required onChange={(e) => setEmailAddress(e.target.value)} value={emailAddress} />
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="phoneNumber" class="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Phone Number</label>
+                                            <input type="text" class="form-control" id="phoneNumber" name='phoneNumber' placeholder="+1 (123) 456-7890" required onChange={(e) => setPhoneNumber(e.target.value)} value={phoneNumber} />
+                                        </div>
+                                        {/* <button type="submit" class={`btn ${styles.callMeBack} my-5`}>Call me back</button> */}
+                                        <button type="submit" class={`btn btn-primary ${styles.callMeBack} my-5`}>Call me back</button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
