@@ -31,19 +31,16 @@
 }
 
 .callMeBack {
-    background: #294DFF;
-    border: 2px solid #294DFF;
-    color: white;
     /* font-size: calc(14px + 0.20vw); */
     font-size: 20px;
     padding: 10px 30px;
 }
 
-.callMeBack:hover {
+/* .callMeBack:hover {
     background: #253053;
     border: 2px solid #253053;
     color: white;
-}
+} */
 
 .leftSide {
     margin-top: 150px;
