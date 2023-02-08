@@ -1,5 +1,4 @@
 import styles from '../../../styles/TermsAndCondition/UserAgreement.module.css';
-import Link from 'next/link';
 
 export default function UserAgreement() {
     return (
@@ -63,7 +62,7 @@ export default function UserAgreement() {
                         <li className={`${styles.sectionBody} pt-2`}>Access, search, or collect data from the Services by any means (automated or otherwise) except as permitted in these Terms or in a separate agreement with Dreamstack (we conditionally grant permission to crawl the Services in accordance with the parameters set forth in our robots.txt file, but scraping the Services without Dreamstack’s prior consent is prohibited); or</li>
                         <li className={`${styles.sectionBody} pt-2`}>Use the Services in any manner that we reasonably believe to be an abuse of or fraud on Dreamstack or any payment system</li>
                     </ul>
-                    <p className={`${styles.sectionBody}`}>We encourage you to report content or conduct that you believe violates these Terms or our Content Policy. We also support the responsible reporting of security vulnerabilities. To report a security issue, please email <Link href="">security@dreamstack.com.</Link></p>
+                    <p className={`${styles.sectionBody}`}>We encourage you to report content or conduct that you believe violates these Terms or our Content Policy. We also support the responsible reporting of security vulnerabilities. To report a security issue, please email <span className={`${styles.emailLink}`} onClick={() => { window.location.href = 'mailto:security@dreamstack.com'; }} style={{ cursor: 'pointer' }}>security@dreamstack.com</span>.</p>
 
 
                     <p className={`${styles.subHeading}`}>8. Copyright, Trademark, the DMCA, and Takedowns</p>
@@ -71,7 +70,7 @@ export default function UserAgreement() {
                     <p className={`${styles.sectionBody}`}>
                         Copyright Agent <br />
                         Dreamstack, Inc. <br />
-                        <Link href="">akash@dreamstack.com</Link>
+                        <span className={`${styles.emailLink}`} onClick={() => { window.location.href = 'mailto:akash@dreamstack.com'; }} style={{ cursor: 'pointer' }}>akash@dreamstack.com</span>
                     </p>
                     <p className={`${styles.sectionBody}`}>Also, please note that if you knowingly misrepresent that any activity or material on our Service is infringing, you may be liable to Dreamstack for certain costs and damages.</p>
                     <p className={`${styles.sectionBody}`}>If we remove Your Content in response to a copyright or trademark notice, we will notify you via Dreamstack private messaging system. If you believe Your Content was wrongly removed due to a mistake or misidentification in a copyright notice</p>
