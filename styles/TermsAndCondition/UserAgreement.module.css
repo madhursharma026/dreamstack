@@ -24,6 +24,10 @@
     line-height: 1.25;
 }
 
+.emailLink{
+    color: #0A58CA;
+}
+
 @media (min-width: 576px) {
     .ContainerWidth {
         padding: 0 40px;
