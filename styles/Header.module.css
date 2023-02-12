@@ -75,11 +75,11 @@
 
 .menuLITagStyle {
   font-size: 18px;
+  font-weight: 700;
   line-height: 2pc;
   letter-spacing: .5px;
-  color: white;
   text-decoration: none!important;
-  border-bottom: 1px solid #494c4d;
+  /* border-bottom: 1px solid #494c4d; */
   z-index: 7;
 }
 
@@ -108,9 +108,9 @@
     padding: 0 60px;
   }
 
-  .navbarMenuWidth {
+  /* .navbarMenuWidth {
     width: 600px;
-  }
+  } */
 }
 
 @media (min-width: 768px) {
