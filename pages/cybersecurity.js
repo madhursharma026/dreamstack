@@ -10,6 +10,11 @@ import Quotes from "./Components/cybersecurity/Quotes";
 import InFocus from "./Components/cybersecurity/InFocus";
 import TalkToExpert from "./Components/cybersecurity/TalkToExpert";
 import Section1 from "./Components/cybersecurity/Section1";
+import HaveAPieceOfMind from "./Components/cybersecurity/HaveAPieceOfMind";
+import BrandCarousel from "./Components/cybersecurity/BrandCarousel";
+import Plateforms from "./Components/cybersecurity/Plateforms";
+import AdditionalResources from "./Components/cybersecurity/AdditionalResources";
+import SecurityRisk from "./Components/cybersecurity/SecurityRisk";
 
 export default function cybersecurity() {
   return (
@@ -24,6 +29,11 @@ export default function cybersecurity() {
       <Insights2 />
       <Quotes />
       <InFocus />
+      <HaveAPieceOfMind />
+      <BrandCarousel />
+      <Plateforms />
+      <AdditionalResources />
+      <SecurityRisk />
       <TalkToExpert />
       <Footer />
     </>

@@ -60,7 +60,7 @@ export default function KnowledgeSection() {
                             {(survey1) ?
                                 <div className={`row ${styles.sectionRow} py-xxl-0 py-xl-4 py-1`}>
                                     <div className={`col-md-6`}>
-                                        <h1 className={`${styles.subHeading}`}>BUILDING COLLECTIVE KNOWLEDGE</h1>
+                                        <h1 className={`${styles.subHeading} pb-4`}>BUILDING COLLECTIVE KNOWLEDGE</h1>
                                         <h1 className={`${styles.sectionTitle} text-white`}>Answer a few questions to discover a trove of insights customized for you.</h1>
                                     </div>
                                     <div className={`col-md-6 col-xxl-4 offset-xxl-1 text-center ${styles.imageColumn}`}>

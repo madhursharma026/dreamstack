@@ -31,20 +31,29 @@ function Header() {
         <>
             <div className={`${styles.navbarBeforeMD}`} onMouseLeave={() => setIsShown(false)}>
                 {isShown && (
-                    <div style={{ background: "#1E2222", width: '100%', position: "absolute", zIndex: '1' }} onMouseLeave={() => setIsShown(false)}>
-                        <div className={`${styles.ContainerWidth} w-100 py-5 mt-4`}>
+                    <div style={{ background: "white", width: '100%', position: "absolute", zIndex: '1' }} onMouseLeave={() => setIsShown(false)}>
+                        <div className={`${styles.ContainerWidth} w-100 mt-4`}>
                             <div className="row">
-                                <div className="col-xl-3 col-4">
-                                    <ul className={`${styles.menuULTagStyle}`}>
-                                        <Link href="/cloud" style={{ textDecoration: 'none' }} className='text-white'><li className={`${styles.menuLITagStyle} p-2`}>Cloud</li></Link>
-                                        <Link href="/DataAndAnalytics" style={{ textDecoration: 'none' }} className='text-white'><li className={`${styles.menuLITagStyle} p-2`}>Data & Analytic</li></Link>
-                                        <Link href="/cybersecurity" style={{ textDecoration: 'none' }} className='text-white'><li className={`${styles.menuLITagStyle} p-2`}>Cybersecurity</li></Link>
-                                        <Link href="/enterprise" style={{ textDecoration: 'none' }} className='text-white'><li className={`${styles.menuLITagStyle} p-2`}>Enterprise solution</li></Link>
+                                <div className="col-xl-3 col-4 py-5">
+                                    <ul className={`${styles.menuULTagStyle} p-0`}>
+                                        <Link href="/cloud" style={{ textDecoration: 'none' }}><li className={`${styles.menuLITagStyle} p-2 text-black`}><img src="https://cdn-icons-png.flaticon.com/512/7709/7709895.png" alt="#ImgNotFound" width='25px' height='25px' /> Cloud</li></Link>
+                                        <Link href="/DataAndAnalytics" style={{ textDecoration: 'none' }}><li className={`${styles.menuLITagStyle} p-2 text-black`}><img src="https://pngimg.com/uploads/sun/small/sun_PNG13426.png" alt="#ImgNotFound" width='25px' height='25px' /> Data & Analytic</li></Link>
+                                        <Link href="/cybersecurity" style={{ textDecoration: 'none' }}><li className={`${styles.menuLITagStyle} p-2 text-black`}><img src="https://www.pngmart.com/files/7/Security-PNG-Transparent-Picture.png" alt="#ImgNotFound" width='25px' height='25px' /> Cybersecurity</li></Link>
+                                        <Link href="/enterprise" style={{ textDecoration: 'none' }}><li className={`${styles.menuLITagStyle} p-2 text-black`}><img src="https://img.freepik.com/free-icon/user_318-865433.jpg?w=360" alt="#ImgNotFound" width='25px' height='25px' /> Enterprise solution</li></Link>
                                     </ul>
                                 </div>
-                                <div className={`col-xl-9 col-8 ${styles.navbarMenuWidth}`}>
-                                    <h3 className="text-white">TCS is here to make a difference through technology.</h3>
-                                    <p className={`${styles.sectionBody} text-white pt-3`}>Leading the way in innovation for over 50 years, we build greater futures for businesses across multiple industries and 131 countries.</p>
+                                <div className={`col-xl-5 col-4 py-5`}>
+                                    <h3>TCS is here to make a difference through technology.</h3>
+                                    <p className={`${styles.sectionBody} pt-3`}>Leading the way in innovation for over 50 years, we build greater futures for businesses across multiple industries and 131 countries.</p>
+                                </div>
+                                <div className={`col-xl-4 col-4 py-5`} style={{ background: '#F5F7FA' }}>
+                                    <h5 className="text-center"><b>TALK TO US</b></h5>
+                                    <hr />
+                                    <div className="text-center">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7cMEr9HXbWjjGArjVcAbnfiUbbfIcSSM4EQ&usqp=CAU" alt="#ImgNotFound" style={{ borderRadius: "100%", width: "125px", height: "125px" }} />
+                                    </div>
+                                    <p className={`${styles.sectionBody} pt-3 px-lg-5 px-3`}>Learn more about Hubstaff from our in-house product specialist.</p>
+                                    <hr />
                                 </div>
                             </div>
                         </div>
@@ -115,10 +124,10 @@ function Header() {
                                 </Dropdown.Toggle>
                                 <Dropdown.Menu className="mb-3">
                                     <ul className={`${styles.menuULTagStyle} px-4`}>
-                                        <Link href="/cloud" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><b>Cloud</b></Link>
-                                        <Link href="/DataAndAnalytics" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><b>Data & Analytic</b></Link>
-                                        <Link href="/cybersecurity" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><b>Cybersecurity</b></Link>
-                                        <Link href="/enterprise" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><b>Enterprise solution</b></Link>
+                                        <Link href="/cloud" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><img src="https://cdn-icons-png.flaticon.com/512/7709/7709895.png" alt="#ImgNotFound" width='25px' height='25px' /> <b>Cloud</b></Link>
+                                        <Link href="/DataAndAnalytics" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><img src="https://pngimg.com/uploads/sun/small/sun_PNG13426.png" alt="#ImgNotFound" width='25px' height='25px' /> <b>Data & Analytic</b></Link>
+                                        <Link href="/cybersecurity" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><img src="https://www.pngmart.com/files/7/Security-PNG-Transparent-Picture.png" alt="#ImgNotFound" width='25px' height='25px' /> <b>Cybersecurity</b></Link>
+                                        <Link href="/enterprise" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><img src="https://img.freepik.com/free-icon/user_318-865433.jpg?w=360" alt="#ImgNotFound" width='25px' height='25px' /> <b>Enterprise solution</b></Link>
                                     </ul>
                                 </Dropdown.Menu>
                             </Dropdown>
