@@ -9,7 +9,7 @@ export default function HaveAPieceOfMind() {
                 <p className={`${styles.sectionBody}`}>Comprehensive website security software protects you from malware, DDoS attacks, phishing scams, bad bots and other types of malicious code and cyber threats. This includes the protection of your site code and web applications.</p>
                 <p className={`${styles.sectionBody}`}>SiteLock’s website protection plans vary based on the level of security needed. Some of our primary features include daily website scans to find threats, real-time notifications, automated malware removal, vulnerability/CMS patching to fix threats, a web application firewall to block and prevent harmful traffic before it ever reaches your site, a content delivery network (CDN) to accelerate your site speed (which can improve SEO) and a firewall PCI report to help eCommerce sites comply with banking institutions. Protect sensitive information and customer data with the following offerings.</p>
             </div>
-            <div className="row">
+            <div className="row px-lg-5 px-3">
                 <div className="col-md-6 mt-lg-5 mt-3">
                     <p className={`${styles.sectionBody} text-danger`}>
                         <img src="https://www.sitelock.com/images/website-scanning-a7b90a.svg" alt="#ImgNotFound" style={{ width: "60px", height: '60px', paddingTop: '10px' }} />
