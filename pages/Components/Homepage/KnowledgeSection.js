@@ -69,13 +69,13 @@ export default function KnowledgeSection() {
     return (
         <div className="bg-black">
             <div className={`p-0 px-md-4 px-3 py-5`}>
-                <div className={`${styles.ContainerWidth}`} style={{ minHeight: '300px' }}>
+                <div className={`${styles.ContainerWidth}`}>
                     {!loading ?
                         <>
                             {(survey0) ?
                                 <div className="row py-4">
                                     <div className="col-xxl-4 col-lg-6 offset-xxl-4 offset-lg-3 text-center">
-                                        <div id={`${styles.divpos}`} className='px-4'>
+                                        <div id={`${styles.divpos}`} className='px-2'>
                                             <h1 id={`${styles.para4}`}>Will the metaverse impact your business?</h1>
                                             <div style={{ float: 'left' }}>
                                                 <img id={`${styles.backButton}`} src={leftArrow.src} alt="back" width="84px" height="80px" onClick={() => moveToSurvey3()} />
@@ -117,7 +117,7 @@ export default function KnowledgeSection() {
                             {(survey2) ?
                                 <div className="row py-4">
                                     <div className="col-xxl-4 col-lg-6 offset-xxl-4 offset-lg-3 text-center">
-                                        <div id={`${styles.divpos}`} className='px-4'>
+                                        <div id={`${styles.divpos}`} className='px-2'>
                                             <h1 id={`${styles.para4}`}>How are you deploying AI in your business?</h1>
                                             <div style={{ float: 'left' }}>
                                                 <img id={`${styles.backButton}`} src={leftArrow.src} alt="back" width="84px" height="80px" onClick={() => moveToSurvey3()} />
@@ -136,7 +136,7 @@ export default function KnowledgeSection() {
                             {(survey3) ?
                                 <div className="row">
                                     <div className="col-xxl-4 col-lg-6 offset-xxl-4 offset-lg-3 text-center">
-                                        <div id={`${styles.divpos}`} className='px-4'>
+                                        <div id={`${styles.divpos}`} className='px-2 mt-md-4'>
                                             <h1 id={`${styles.para4}`}>Do you see more threats or opportunities?</h1>
                                             <div style={{ float: 'left' }}>
                                                 <img id={`${styles.backButton}`} src={leftArrow.src} alt="back" width="84px" height="80px" onClick={() => moveToResult()} />
