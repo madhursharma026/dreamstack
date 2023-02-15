@@ -5,6 +5,7 @@ import styles from '../../../styles/Homepage/KnowledgeSection.module.css';
 
 export default function KnowledgeSection() {
     const [loading, setLoading] = useState(false)
+    const [survey0, setSurvey0] = useState(false)
     const [survey1, setSurvey1] = useState(false)
     const [survey2, setSurvey2] = useState(false)
     const [survey3, setSurvey3] = useState(false)
@@ -12,14 +13,25 @@ export default function KnowledgeSection() {
 
     useEffect(() => {
         setLoading(false)
+        setSurvey0(false)
         setSurvey2(false)
         setSurvey3(false)
         setResult(false)
         setSurvey1(true)
     }, [])
+    function moveToSurvey0() {
+        setLoading(true)
+        setLoading(false)
+        setSurvey1(false)
+        setSurvey2(false)
+        setSurvey3(false)
+        setResult(false)
+        setSurvey0(true)
+    }
     function moveToSurvey1() {
         setLoading(true)
         setLoading(false)
+        setSurvey0(false)
         setSurvey2(false)
         setSurvey3(false)
         setResult(false)
@@ -28,6 +40,7 @@ export default function KnowledgeSection() {
     function moveToSurvey2() {
         setLoading(true)
         setLoading(false)
+        setSurvey0(false)
         setSurvey1(false)
         setSurvey3(false)
         setResult(false)
@@ -36,6 +49,7 @@ export default function KnowledgeSection() {
     function moveToSurvey3() {
         setLoading(true)
         setLoading(false)
+        setSurvey0(false)
         setSurvey1(false)
         setSurvey2(false)
         setResult(false)
@@ -45,6 +59,7 @@ export default function KnowledgeSection() {
         setLoading(true)
         const interval = setInterval(() => {
             setLoading(false)
+            setSurvey0(false)
             setSurvey1(false)
             setSurvey3(false)
             setSurvey2(false)
@@ -57,6 +72,25 @@ export default function KnowledgeSection() {
                 <div className={`${styles.ContainerWidth}`} style={{ minHeight: '300px' }}>
                     {!loading ?
                         <>
+                            {(survey0) ?
+                                <div className="row py-4">
+                                    <div className="col-xxl-4 col-lg-6 offset-xxl-4 offset-lg-3 text-center">
+                                        <div id={`${styles.divpos}`} className='px-4'>
+                                            <h1 id={`${styles.para4}`}>Will the metaverse impact your business?</h1>
+                                            <div style={{ float: 'left' }}>
+                                                <img id={`${styles.backButton}`} src={leftArrow.src} alt="back" width="84px" height="80px" onClick={() => moveToSurvey3()} />
+                                                <span id={`${styles.buttontext}`}>Metaverse</span>
+                                            </div>
+                                            <div style={{ float: 'right' }}>
+                                                <span id={`${styles.buttontext2}`}>AI</span>
+                                                <img id={`${styles.frontButton}`} src={rightArrow.src} alt="front" width="78px" height="70px" onClick={() => moveToSurvey3()} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                :
+                                <></>
+                            }
                             {(survey1) ?
                                 <div className={`row ${styles.sectionRow} py-xxl-0 py-xl-4 py-1`}>
                                     <div className={`col-md-6`}>
@@ -67,7 +101,7 @@ export default function KnowledgeSection() {
                                         <div id={`${styles.divpos}`} className='px-2'>
                                             <h1 id={`${styles.para4}`}>When you hear ‘future tech’ what do you think of?</h1>
                                             <div style={{ float: 'left' }}>
-                                                <img id={`${styles.backButton}`} src={leftArrow.src} alt="back" width="84px" height="80px" onClick={() => moveToResult()} />
+                                                <img id={`${styles.backButton}`} src={leftArrow.src} alt="back" width="84px" height="80px" onClick={() => moveToSurvey0()} />
                                                 <span id={`${styles.buttontext}`}>Metaverse</span>
                                             </div>
                                             <div style={{ float: 'right' }}>
@@ -86,7 +120,7 @@ export default function KnowledgeSection() {
                                         <div id={`${styles.divpos}`} className='px-4'>
                                             <h1 id={`${styles.para4}`}>How are you deploying AI in your business?</h1>
                                             <div style={{ float: 'left' }}>
-                                                <img id={`${styles.backButton}`} src={leftArrow.src} alt="back" width="84px" height="80px" onClick={() => moveToSurvey1()} />
+                                                <img id={`${styles.backButton}`} src={leftArrow.src} alt="back" width="84px" height="80px" onClick={() => moveToSurvey3()} />
                                                 <span id={`${styles.buttontext}`}>Metaverse</span>
                                             </div>
                                             <div style={{ float: 'right' }}>
@@ -105,7 +139,7 @@ export default function KnowledgeSection() {
                                         <div id={`${styles.divpos}`} className='px-4'>
                                             <h1 id={`${styles.para4}`}>Do you see more threats or opportunities?</h1>
                                             <div style={{ float: 'left' }}>
-                                                <img id={`${styles.backButton}`} src={leftArrow.src} alt="back" width="84px" height="80px" onClick={() => moveToSurvey2()} />
+                                                <img id={`${styles.backButton}`} src={leftArrow.src} alt="back" width="84px" height="80px" onClick={() => moveToResult()} />
                                                 <span id={`${styles.buttontext}`}>Metaverse</span>
                                             </div>
                                             <div style={{ float: 'right' }}>

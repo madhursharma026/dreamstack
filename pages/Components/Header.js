@@ -70,7 +70,7 @@ function Header() {
                         <Navbar.Collapse id="navbarScroll">
                             <Nav className={`me-auto my-2 my-lg-0 ${styles.navOptionBeforeLG}`} navbarScroll>
                                 <p className={`px-lg-3 px-2 pt-3 ${styles.menuOptions}`} onMouseEnter={() => setIsShown(true)}><b>What We Do</b></p>
-                                <Link href="/" className={`px-lg-3 px-2 pt-3 ${styles.menuOptions}`} onMouseEnter={() => setIsShown(false)}><b>Who We Are</b></Link>
+                                <Link href="/WhoWeAre" className={`px-lg-3 px-2 pt-3 ${styles.menuOptions}`} onMouseEnter={() => setIsShown(false)}><b>Who We Are</b></Link>
                                 <Link href="/careers" className={`px-lg-3 px-2 pt-3 ${styles.menuOptions}`} onMouseEnter={() => setIsShown(false)}><b>Careers</b></Link>
                                 <Link href="/TermsAndCondition" className={`px-lg-3 px-2 pt-3 ${styles.menuOptions}`} onMouseEnter={() => setIsShown(false)}><b>Terms</b></Link>
                             </Nav>
@@ -84,7 +84,7 @@ function Header() {
                                 <hr />
                                 <Link href="" className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>What We Do</b></Link>
                                 <hr />
-                                <Link href="" className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Who We Are</b></Link>
+                                <Link href="/WhoWeAre" className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Who We Are</b></Link>
                                 <hr />
                                 <Link href="/careers" className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>Careers</b></Link>
                                 <hr />
@@ -107,7 +107,7 @@ function Header() {
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className={`me-auto my-2 my-lg-0 ${styles.navOptionBeforeLG}`} navbarScroll>
                             <Link href='' className={`px-3 ${styles.menuOptions}`}><b>What We Do</b></Link>
-                            <Link href='' className={`px-3 ${styles.menuOptions}`}><b>Who We Are</b></Link>
+                            <Link href='/WhoWeAre' className={`px-3 ${styles.menuOptions}`}><b>Who We Are</b></Link>
                             <Link href='/careers' className={`px-3 ${styles.menuOptions}`}><b>Careers</b></Link>
                             <Link href='/TermsAndCondition' className={`px-3 ${styles.menuOptions}`}><b>Terms</b></Link>
                         </Nav>
@@ -131,11 +131,13 @@ function Header() {
                                     </ul>
                                 </Dropdown.Menu>
                             </Dropdown>
-                            <Dropdown>
-                                <Dropdown.Toggle id="dropdown-basic" className="py-3" style={{ background: "transparent", width: "100%", color: "black", textAlign: "left", borderRadius: "0", borderColor: "black", borderRight: '0', borderLeft: "0", borderBottom: '0' }}>
-                                    <b>Who We Are</b>
-                                </Dropdown.Toggle>
-                            </Dropdown>
+                            <Link href="/WhoWeAre">
+                                <Dropdown>
+                                    <Dropdown.Toggle id="dropdown-basic" className="py-3" style={{ background: "transparent", width: "100%", color: "black", textAlign: "left", borderRadius: "0", borderColor: "black", borderRight: '0', borderLeft: "0", borderBottom: '0' }}>
+                                        <b>Who We Are</b>
+                                    </Dropdown.Toggle>
+                                </Dropdown>
+                            </Link>
                             <Link href="/careers">
                                 <Dropdown>
                                     <Dropdown.Toggle id="dropdown-basic" className="py-3" style={{ background: "transparent", width: "100%", color: "black", textAlign: "left", borderRadius: "0", borderColor: "black", borderRight: '0', borderLeft: "0", borderBottom: '0' }}>
