@@ -2,6 +2,7 @@
     max-width: 1550px;
     margin: 0 auto;
 }
+
 .subHeading {
     letter-spacing: .04em !important;
     font-size: 1.125rem;
@@ -63,6 +64,13 @@
     }
 }
 
+@media (min-width: 870px) {
+    .ContainerWidth {
+        height: 350px;
+        overflow: hidden;
+    }
+}
+
 @media (min-width: 992px) {
     .ContainerWidth {
         padding: 0 60px;
@@ -78,4 +86,3 @@
         text-align: center;
     }
 }
-
