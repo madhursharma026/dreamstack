@@ -1,5 +1,5 @@
 .ContainerWidth {
-    max-width: 1550px;
+    /* max-width: 1550px; */
     margin: 0 auto;
 }
 
@@ -47,18 +47,26 @@
     margin-bottom: 100px;
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
     .ContainerWidth {
-        padding: 0 40px;
+        padding-right: 60px;
     }
-}
+} */
 
 @media (min-width: 992px) {
     .ContainerWidth {
-        padding: 0 60px;
+        /* padding: 0 60px; */
+        padding-right: 80px;
     }
 
     .leftSide {
-        margin-top: 60%;
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .maxWidthStyle {
+        max-width: 680px;
     }
 }

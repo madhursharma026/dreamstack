@@ -17,9 +17,9 @@
     line-height: 1.5;
 }
 
-/* .imgStyle {
+.imgCropStyle {
     clip-path: polygon(0 0, 100% 0, 100% 70%, -25px 100%);
-} */
+}
 
 .installBtn {
     border-radius: 4px;
@@ -71,10 +71,10 @@
         float: right;
     }
 
-    /* .imgStyle {
+    .imgCropStyle {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
         min-width: 800px;
-    } */
+    }
 }
 
 .BRTagBeforeMDScrn {

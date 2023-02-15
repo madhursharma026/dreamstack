@@ -3,6 +3,18 @@
     margin: 0 auto;
 }
 
+.letsTalk {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.letsTalk:hover {
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
 .sectionTitle {
     font-size: calc(30px + 1.25vw);
 }
