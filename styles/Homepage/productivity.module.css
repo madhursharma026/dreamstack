@@ -10,6 +10,16 @@
     border-radius: 0 30em 0 0;
 } */
 
+.cardLinkStyle{
+    text-decoration: none;
+    color: #000;
+}
+
+.cardLinkStyle:hover{
+    text-decoration: none;
+    color: #000;
+}
+
 .greenRightTopCorner {
     position: relative;
     overflow: hidden;
