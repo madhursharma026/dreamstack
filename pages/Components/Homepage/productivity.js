@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../../../styles/Homepage/productivity.module.css'
 
 export default function Productivity() {
@@ -10,26 +11,31 @@ export default function Productivity() {
                         <p className={`${styles.sectionBody} py-3 text-center text-white`}>The complete platform for time tracking, workforce and project management.</p>
                         <div className={`row ${styles.cardBeforeLGScrn}`} style={{ maxWidth: '1200px', margin: "auto" }}>
                             <div className="col-lg-4 mt-3 p-3">
-                                <div class="card h-100" style={{ border: '0' }}>
-                                    <img src="https://marketing-assets.hubstaff.com/assets/refresh/stock/menu-hubstaff-time-preview@2x-9ca60c5ec00a053c4d5e7802672a49d5e1ee743a09ebd19b1bbeb99556aa2548.webp" class="card-img-top" alt="#ImgNotFound" />
-                                    <div class="card-body px-3 py-3">
-                                        {/* <img src="https://assets.website-files.com/58af4d18482a1fed7dfa4b7b/58f8d7d1b8bb6a16cafe39db_Getsyrup%20Logo%20homepage%20Hubstaff.png" alt="#ImgNotFound" style={{ width: '250px', height: '50px' }} /> */}
-                                        <h1 className={`${styles.sectionHeading}`}>Cloud Computing</h1>
-                                        <p class="card-text">Simple time tracking and reporting</p>
+                                <Link href="/cloud" className={styles.cardLinkStyle}>
+                                    <div class="card h-100" style={{ border: '0' }}>
+                                        <img src="https://marketing-assets.hubstaff.com/assets/refresh/stock/menu-hubstaff-time-preview@2x-9ca60c5ec00a053c4d5e7802672a49d5e1ee743a09ebd19b1bbeb99556aa2548.webp" class="card-img-top" alt="#ImgNotFound" />
+                                        <div class="card-body px-3 py-3">
+                                            {/* <img src="https://assets.website-files.com/58af4d18482a1fed7dfa4b7b/58f8d7d1b8bb6a16cafe39db_Getsyrup%20Logo%20homepage%20Hubstaff.png" alt="#ImgNotFound" style={{ width: '250px', height: '50px' }} /> */}
+                                            <h1 className={`${styles.sectionHeading}`}>Cloud Computing</h1>
+                                            <p class="card-text">Simple time tracking and reporting</p>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
                             <div className="col-lg-4 mt-3 p-3">
-                                <div class="card h-100" style={{ border: '0' }}>
-                                    <img src="https://marketing-assets.hubstaff.com/assets/refresh/stock/menu-hubstaff-desk-preview@2x-66395c1d29d70e469199444aae7e27fa943cd45f51cac6d02a6e8925c71ebe54.webp" class="card-img-top" alt="#ImgNotFound" />
-                                    <div class="card-body px-3 py-3">
-                                        {/* <img src="https://assets.website-files.com/58af4d18482a1fed7dfa4b7b/58f8d7d1b8bb6a16cafe39db_Getsyrup%20Logo%20homepage%20Hubstaff.png" alt="#ImgNotFound" style={{ width: '250px', height: '50px' }} /> */}
-                                        <h1 className={`${styles.sectionHeading}`}>Data & Analytic</h1>
-                                        <p class="card-text">Proof of work, time tracking, and team management</p>
+                                <Link href="/DataAndAnalytics" className={styles.cardLinkStyle}>
+                                    <div class="card h-100" style={{ border: '0' }}>
+                                        <img src="https://marketing-assets.hubstaff.com/assets/refresh/stock/menu-hubstaff-desk-preview@2x-66395c1d29d70e469199444aae7e27fa943cd45f51cac6d02a6e8925c71ebe54.webp" class="card-img-top" alt="#ImgNotFound" />
+                                        <div class="card-body px-3 py-3">
+                                            {/* <img src="https://assets.website-files.com/58af4d18482a1fed7dfa4b7b/58f8d7d1b8bb6a16cafe39db_Getsyrup%20Logo%20homepage%20Hubstaff.png" alt="#ImgNotFound" style={{ width: '250px', height: '50px' }} /> */}
+                                            <h1 className={`${styles.sectionHeading}`}>Data & Analytic</h1>
+                                            <p class="card-text">Proof of work, time tracking, and team management</p>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
                             <div className="col-lg-4 mt-3 p-3">
+                                <Link href="/cybersecurity" className={styles.cardLinkStyle}>
                                 <div class="card h-100" style={{ border: '0' }}>
                                     <img src="https://marketing-assets.hubstaff.com/assets/refresh/stock/menu-hubstaff-field-preview@2x-9f92568bb227eb485d612fef8afd596365fb8d362987747640bee7d6db549693.webp" class="card-img-top" alt="#ImgNotFound" />
                                     <div class="card-body px-3 py-3">
@@ -38,8 +44,10 @@ export default function Productivity() {
                                         <p class="card-text">GPS location tracking and team management</p>
                                     </div>
                                 </div>
+                                </Link>
                             </div>
                             <div className="col-lg-6 mt-3 p-3">
+                                <Link href="/enterprise" className={styles.cardLinkStyle}>
                                 <div class="card h-100" style={{ border: '0' }}>
                                     <div className="row">
                                         <div className="col-4">
@@ -52,8 +60,10 @@ export default function Productivity() {
                                         </div>
                                     </div>
                                 </div>
+                                </Link>
                             </div>
                             <div className="col-lg-6 mt-3 p-3">
+                                <Link href="/blockchain" className={styles.cardLinkStyle}>
                                 <div class="card h-100" style={{ border: '0' }}>
                                     <div className="row">
                                         <div className="col-4">
@@ -66,6 +76,7 @@ export default function Productivity() {
                                         </div>
                                     </div>
                                 </div>
+                                </Link>
                             </div>
                         </div>
 

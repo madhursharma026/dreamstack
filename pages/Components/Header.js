@@ -40,6 +40,7 @@ function Header() {
                                         <Link href="/DataAndAnalytics" style={{ textDecoration: 'none' }}><li className={`${styles.menuLITagStyle} p-2 text-black`}><img src="https://pngimg.com/uploads/sun/small/sun_PNG13426.png" alt="#ImgNotFound" width='25px' height='25px' /> Data & Analytic</li></Link>
                                         <Link href="/cybersecurity" style={{ textDecoration: 'none' }}><li className={`${styles.menuLITagStyle} p-2 text-black`}><img src="https://www.pngmart.com/files/7/Security-PNG-Transparent-Picture.png" alt="#ImgNotFound" width='25px' height='25px' /> Cybersecurity</li></Link>
                                         <Link href="/enterprise" style={{ textDecoration: 'none' }}><li className={`${styles.menuLITagStyle} p-2 text-black`}><img src="https://img.freepik.com/free-icon/user_318-865433.jpg?w=360" alt="#ImgNotFound" width='25px' height='25px' /> Enterprise solution</li></Link>
+                                        <Link href="/blockchain" style={{ textDecoration: 'none' }}><li className={`${styles.menuLITagStyle} p-2 text-black`}><img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/krinnxb23kgp75s0jyhp" alt="#ImgNotFound" width='25px' height='25px' /> Blockchain</li></Link>
                                     </ul>
                                 </div>
                                 <div className={`col-xl-5 col-4 py-5`}>
@@ -75,11 +76,13 @@ function Header() {
                                 <Link href="/TermsAndCondition" className={`px-lg-3 px-2 pt-3 ${styles.menuOptions}`} onMouseEnter={() => setIsShown(false)}><b>Terms</b></Link>
                             </Nav>
                             <div className={`${styles.navOptionBeforeLG}`}>
-                                <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button>
+                                {/* <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button> */}
+                                <Link className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`} href="/contact" role="button"><b>Contact Us</b></Link>
                             </div>
                             <Nav className={`me-auto my-2 my-lg-0 ${styles.navOptionAfterLG}`} navbarScroll>
                                 <div style={{ display: "flex", justifyContent: "center" }}>
-                                    <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button>
+                                    {/* <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button> */}
+                                    <Link className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`} href="/contact" role="button"><b>Contact Us</b></Link>
                                 </div>
                                 <hr />
                                 <Link href="" className={`px-3 pt-1 ${styles.menuOptionsAfterLG}`}><b>What We Do</b></Link>
@@ -128,6 +131,7 @@ function Header() {
                                         <Link href="/DataAndAnalytics" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><img src="https://pngimg.com/uploads/sun/small/sun_PNG13426.png" alt="#ImgNotFound" width='25px' height='25px' /> <b>Data & Analytic</b></Link>
                                         <Link href="/cybersecurity" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><img src="https://www.pngmart.com/files/7/Security-PNG-Transparent-Picture.png" alt="#ImgNotFound" width='25px' height='25px' /> <b>Cybersecurity</b></Link>
                                         <Link href="/enterprise" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><img src="https://img.freepik.com/free-icon/user_318-865433.jpg?w=360" alt="#ImgNotFound" width='25px' height='25px' /> <b>Enterprise solution</b></Link>
+                                        <Link href="/blockchain" style={{ textDecoration: 'none', display: "block", color: 'black', borderBottom: '1px solid black' }} className='p-2'><img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/krinnxb23kgp75s0jyhp" alt="#ImgNotFound" width='25px' height='25px' /> <b>Blockchain</b></Link>
                                     </ul>
                                 </Dropdown.Menu>
                             </Dropdown>

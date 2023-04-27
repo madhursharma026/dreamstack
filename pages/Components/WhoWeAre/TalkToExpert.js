@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../../../styles/cybersecurity/TalkToExpert.module.css';
 
 export default function TalkToExpert() {
@@ -8,7 +9,8 @@ export default function TalkToExpert() {
                     <div className={`col-md-6 pt-3`}>
                         <h1 className={`${styles.sectionTitle} text-white`}>Transformation starts here</h1>
                         <h5 className="text-muted my-3">Reimagine your future.</h5>
-                        <button type="button" class={`btn ${styles.btnStyle} text-white`}>Talk To our Expert</button>
+                        {/* <button type="button" class={`btn ${styles.btnStyle} text-white`}>Talk To our Expert</button> */}
+                        <Link className={`btn ${styles.btnStyle} text-white`} href="/contact" role="button">Talk To our Expert</Link>
                     </div>
                     <div className="col-md-6 pt-3 text-white" style={{borderLeft:'2px solid white'}}>
                         <div className="px-md-5 px-3">
