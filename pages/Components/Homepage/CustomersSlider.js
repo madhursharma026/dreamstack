@@ -20,78 +20,78 @@ export default function CustomersSlider() {
                 <div class={`${styles.imageSlider}`}>
                     <div class={`${styles.imageSliderTrack}`}>
                         <div class={`${styles.slide}`}>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkdzsMq6R2Onp5x63-Qhw1dynaCsA1HoIPWw&usqp=CAU" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-1.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://nexuslinkservices.com/wp-content/uploads/2020/11/enterprise-solution-nexuslink-services-2.jpg" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-2.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://www.mdpi.com/energies/energies-15-00218/article_deploy/html/images/energies-15-00218-g001.png" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-3.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity/jcr:content/Grid/subcategory_atl/layout-subcategory-atl/blade/bladeContents/spotlight.img.jpg/1674559558385.jpg" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-4.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkdzsMq6R2Onp5x63-Qhw1dynaCsA1HoIPWw&usqp=CAU" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-5.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://nexuslinkservices.com/wp-content/uploads/2020/11/enterprise-solution-nexuslink-services-2.jpg" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-6.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://www.mdpi.com/energies/energies-15-00218/article_deploy/html/images/energies-15-00218-g001.png" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-7.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity/jcr:content/Grid/subcategory_atl/layout-subcategory-atl/blade/bladeContents/spotlight.img.jpg/1674559558385.jpg" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-8.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkdzsMq6R2Onp5x63-Qhw1dynaCsA1HoIPWw&usqp=CAU" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-9.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://nexuslinkservices.com/wp-content/uploads/2020/11/enterprise-solution-nexuslink-services-2.jpg" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-10.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://www.mdpi.com/energies/energies-15-00218/article_deploy/html/images/energies-15-00218-g001.png" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-11.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity/jcr:content/Grid/subcategory_atl/layout-subcategory-atl/blade/bladeContents/spotlight.img.jpg/1674559558385.jpg" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-12.png" className='w-100 h-100' />
                         </div>
                     </div>
                     <div class={`${styles.antiImageSliderTrack}`}>
                         <div class={`${styles.slide}`}>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkdzsMq6R2Onp5x63-Qhw1dynaCsA1HoIPWw&usqp=CAU" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-13.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://nexuslinkservices.com/wp-content/uploads/2020/11/enterprise-solution-nexuslink-services-2.jpg" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-14.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://www.mdpi.com/energies/energies-15-00218/article_deploy/html/images/energies-15-00218-g001.png" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-15.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity/jcr:content/Grid/subcategory_atl/layout-subcategory-atl/blade/bladeContents/spotlight.img.jpg/1674559558385.jpg" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-16.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkdzsMq6R2Onp5x63-Qhw1dynaCsA1HoIPWw&usqp=CAU" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-17.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://nexuslinkservices.com/wp-content/uploads/2020/11/enterprise-solution-nexuslink-services-2.jpg" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-18.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://www.mdpi.com/energies/energies-15-00218/article_deploy/html/images/energies-15-00218-g001.png" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-19.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity/jcr:content/Grid/subcategory_atl/layout-subcategory-atl/blade/bladeContents/spotlight.img.jpg/1674559558385.jpg" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-26.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkdzsMq6R2Onp5x63-Qhw1dynaCsA1HoIPWw&usqp=CAU" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-21.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://nexuslinkservices.com/wp-content/uploads/2020/11/enterprise-solution-nexuslink-services-2.jpg" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-22.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://www.mdpi.com/energies/energies-15-00218/article_deploy/html/images/energies-15-00218-g001.png" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-23.png" className='w-100 h-100' />
                         </div>
                         <div class={`${styles.slide}`}>
-                            <img src="https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity/jcr:content/Grid/subcategory_atl/layout-subcategory-atl/blade/bladeContents/spotlight.img.jpg/1674559558385.jpg" className='w-100 h-100' />
+                            <img src="https://www.ksolves.com/assets/img-2023/tools/tool-25.png" className='w-100 h-100' />
                         </div>
                     </div>
                 </div>

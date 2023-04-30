@@ -10,7 +10,7 @@ export default function AboutUsCard() {
                     <div class={`card ${styles.cardStyle}`}>
                         <div class="card-body">
                             <h6 style={{ fontSize: '14px' }}><b>OUR EMPLOYEES</b></h6>
-                            <h1 class="card-title text-primary"><b>613k</b></h1>
+                            <h1 class="card-title text-primary" style={{fontSize:'4rem'}}>613K</h1>
                             <p class="card-text">workforce globally distributed highly localized</p>
                         </div>
                     </div>
@@ -19,7 +19,7 @@ export default function AboutUsCard() {
                     <div class={`card ${styles.cardStyle}`}>
                         <div class="card-body">
                             <h6 style={{ fontSize: '14px' }}><b>NATIONALITIES</b></h6>
-                            <h1 class="card-title text-primary"><b>153</b></h1>
+                            <h1 class="card-title text-primary" style={{fontSize:'4rem'}}>153</h1>
                             <p class="card-text">nationalities represented from across the globe</p>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ export default function AboutUsCard() {
                     <div class={`card ${styles.cardStyle}`}>
                         <div class="card-body">
                             <h6 style={{ fontSize: '14px' }}><b>DIVERSITY</b></h6>
-                            <h1 class="card-title text-primary"><b>35.7%</b></h1>
+                            <h1 class="card-title text-primary" style={{fontSize:'4rem'}}>35.7%</h1>
                             <p class="card-text">women in workforce with an 84%+ increase in executive roles over 5 years</p>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ export default function AboutUsCard() {
                     <div class={`card ${styles.cardStyle}`}>
                         <div class="card-body">
                             <h6 style={{ fontSize: '14px' }}><b>DEVELOPMENT</b></h6>
-                            <h1 class="card-title text-primary"><b>171k</b></h1>
+                            <h1 class="card-title text-primary" style={{fontSize:'4rem'}}>171K</h1>
                             <p class="card-text">employees deep-skilled. 121 hrs of average learning hours per employee per year</p>
                         </div>
                     </div>

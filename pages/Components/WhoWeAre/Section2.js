@@ -2,7 +2,7 @@ import styles from '../../../styles/DataAndAnalytics/Section2.module.css';
 
 export default function Section2() {
     return (
-        <div className={`px-md-4 px-3 py-md-5 pb-lg-0 pb-5`}>
+        <div className={`px-md-4 px-3 py-md-5 pb-lg-0 pb-5 mt-md-0 mt-5`}>
             <div className={`${styles.ContainerWidth}`}>
                 <div className="row">
                     <div className="col-lg-6 p-lg-5 pt-5" style={{ margin: 'auto' }}>
