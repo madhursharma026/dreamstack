@@ -13,7 +13,7 @@ export default function OurPeople() {
                             <h6 className='text-white'><b>Our people</b></h6>
                             <h1 className={`${styles.sectionBody} text-white`}><b>We believe our people make the difference. We nurture their development, providing opportunities for learning and mutual growth.</b></h1>
                         </div>
-                        <Link href='' className='text-white' style={{ fontSize: "20px" }}><b>Join Us</b></Link>
+                        <Link href='/careers' className='text-white' style={{ fontSize: "20px" }}><b>Join Us</b></Link>
                     </div>
                     <div className="col-md-6 px-3">
                         {/* <div className='px-3' style={{ borderLeft: "4px solid #E00C36" }}>
