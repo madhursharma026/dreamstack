@@ -4,10 +4,12 @@ import AboutUsCard from "./Components/WhoWeAre/AboutUsCard";
 import Galance from "./Components/WhoWeAre/glance";
 import Investors from "./Components/WhoWeAre/Investors";
 import KnowUsBetter from "./Components/WhoWeAre/KnowUsBetter";
-import OurHistory from "./Components/WhoWeAre/OurHistory";
+import WhomWeServe from "./Components/WhoWeAre/WhomWeServe";
 import OurPeople from "./Components/WhoWeAre/OurPeople";
 import Section2 from "./Components/WhoWeAre/Section2";
 import TalkToExpert from "./Components/WhoWeAre/TalkToExpert";
+import MapService from "./Components/WhoWeAre/MapService";
+import Partnerships from "./Components/WhoWeAre/partnerships";
 
 export default function WhoWeAre() {
     return (
@@ -18,7 +20,9 @@ export default function WhoWeAre() {
             <OurPeople />
             <AboutUsCard />
             <KnowUsBetter />
-            <OurHistory />
+            <WhomWeServe />
+            <MapService />
+            <Partnerships />
             <Investors />
             <TalkToExpert />
             <Footer />
