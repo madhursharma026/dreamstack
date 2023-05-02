@@ -22,8 +22,10 @@ export default function Positions() {
                             <h6><span className="text-muted">Posted: </span>Thursday, January 12, 2023</h6>
                             <h6><span className="text-muted">Location: </span>Remote</h6>
                             <p className={`${styles.sectionBody} text-muted`}>
-                                We are looking for a Data Engineering Architect or similar experience within our marketing team to help our teams make better data-driven decisions. You work with our marketing department, engineers, and product specialists across the company to help us compile, analyze and visualize relevant data about our product and relevant market trends.
-                                This is a brand-new position. You will have a unique opportunity to help scale the data team, build the process, as well as to be hands-on. Don’t miss it!
+                                We are seeking an experienced remote Customer Success Manager from America to join our Success team.
+                                <br />
+                                <br />
+                                Even though this is a fully remote position and due to the company's goals, we're explicitly hiring in America and in one of the following locations: Canada, USA, Mexico, Honduras, or Brazil.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -33,8 +35,7 @@ export default function Positions() {
                             <h6><span className="text-muted">Posted: </span>Thursday, January 12, 2023</h6>
                             <h6><span className="text-muted">Location: </span>Remote</h6>
                             <p className={`${styles.sectionBody} text-muted`}>
-                                We are looking for a Data Engineering Architect or similar experience within our marketing team to help our teams make better data-driven decisions. You work with our marketing department, engineers, and product specialists across the company to help us compile, analyze and visualize relevant data about our product and relevant market trends.
-                                This is a brand-new position. You will have a unique opportunity to help scale the data team, build the process, as well as to be hands-on. Don’t miss it!
+                                We are looking for a team lead for our Quality team to improve all aspects of quality assurance including applying industry best practices, developing new testing solutions and methods, and establishing metrics. This is a long-term full-time (40 hrs/wk) role.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -44,8 +45,9 @@ export default function Positions() {
                             <h6><span className="text-muted">Posted: </span>Thursday, January 12, 2023</h6>
                             <h6><span className="text-muted">Location: </span>Remote</h6>
                             <p className={`${styles.sectionBody} text-muted`}>
-                                We are looking for a Data Engineering Architect or similar experience within our marketing team to help our teams make better data-driven decisions. You work with our marketing department, engineers, and product specialists across the company to help us compile, analyze and visualize relevant data about our product and relevant market trends.
-                                This is a brand-new position. You will have a unique opportunity to help scale the data team, build the process, as well as to be hands-on. Don’t miss it!
+                                We are looking for an experienced remote Customer Success Manager from Europe to join our Success team.
+                                <br /><br />
+                                Even though this is a fully remote position, we're explicitly hiring in Europe (preferred locations: Poland, Romania, and Spain).
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>

@@ -11,24 +11,24 @@ export default function Types() {
                         <div className="col-md-6 col-xl-3 mt-3">
                             <div class="card w-100 p-3 h-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
                                 <div class="card-body">
-                                    <h3 class="card-title"><b>Blockchain Audit</b></h3>
-                                    <p class="card-text" style={{ fontSize: '20px' }}>Get the support of high-value transactions for your business with a blockchain security audit</p>
+                                    <h3 class="card-title"><b>Public Blockchain</b></h3>
+                                    <p class="card-text" style={{ fontSize: '20px' }}>A public blockchain is open-source, non-restrictive, and permissionless, which allows users to access a blockchain platform with equal rights to become an authorized node</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-xl-3 mt-3">
                             <div class="card w-100 p-3 h-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
                                 <div class="card-body">
-                                    <h3 class="card-title"><b>Blockchain Strategy</b></h3>
-                                    <p class="card-text" style={{ fontSize: '20px' }}>Analyze the potential of blockchain for your enterprise with real-world applications</p>
+                                    <h3 class="card-title"><b>Private Blockchain</b></h3>
+                                    <p class="card-text" style={{ fontSize: '20px' }}>Private blockchains, known as permissioned blockchains or enterprise blockchains, work in a restrictive environment and are executed by a closed network or a single organization</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-xl-3 mt-3">
                             <div class="card w-100 p-3 h-100" style={{ border: '0', borderRadius: '0', background: 'transparent' }}>
                                 <div class="card-body">
-                                    <h3 class="card-title"><b>Blockchain Security</b></h3>
-                                    <p class="card-text" style={{ fontSize: '20px' }}>Eliminate attacks and frauds using cybersecurity frameworks for a blockchain network</p>
+                                    <h3 class="card-title"><b>Hybrid Blockchain</b></h3>
+                                    <p class="card-text" style={{ fontSize: '20px' }}>A hybrid blockchain is a combination of private and public blockchains, where some part is visible as a public blockchain, and some part is controlled by an organization</p>
                                 </div>
                             </div>
                         </div>

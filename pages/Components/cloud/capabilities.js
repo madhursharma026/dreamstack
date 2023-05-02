@@ -12,10 +12,12 @@ export default function Capabilities() {
                         <Accordion.Header><b><h2>01. Cloud Strategy and Transformation</h2></b></Accordion.Header>
                         <Accordion.Body>
                             <div className="row">
-                                <div className="col-sm-5 col-md-4 col-lg-3 col-xl-2">
-                                    <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/services/cyber-security/blogs/cloud-security-automation-cyber-hygiene-card-1330x1270.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
+                                <div className="col-md-4 col-lg-3">
+                                    <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/industries/healthcare/article/doc.png/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
                                 </div>
-                                <div className="col-sm-7 col-md-8 col-lg-9 col-xl-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta accusamus praesentium mollitia blanditiis quia vero, ipsum eveniet eum pariatur, doloremque odio sunt et impedit. Vitae iusto minus facilis neque, reprehenderit ipsam, quos vero, laborum maiores id aliquam. Possimus dolore veritatis ducimus, sapiente quas dolorum aspernatur suscipit tempora ea dolorem, exercitationem voluptas corrupti totam, earum ab. Veniam ipsam eius corporis ad excepturi voluptatibus, velit harum deleniti deserunt accusamus delectus quidem neque laboriosam inventore recusandae quo, sed voluptate repellendus rem possimus ratione quis?</div>
+                                <div className="col-md-8 col-lg-9 mt-md-0 mt-3">
+                                    <h4>Dreamstack ADD  is a suite of modern and open technology platforms for clinical research and drug development that helps make clinical trials more agile and safe.</h4>
+                                </div>
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -23,10 +25,12 @@ export default function Capabilities() {
                         <Accordion.Header><b><h2>02. Dreamstack and AWS Cloud</h2></b></Accordion.Header>
                         <Accordion.Body>
                             <div className="row">
-                                <div className="col-sm-5 col-md-4 col-lg-3 col-xl-2">
-                                    <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/services/cyber-security/blogs/cloud-security-automation-cyber-hygiene-card-1330x1270.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
+                                <div className="col-md-4 col-lg-3" style={{maxHeight:'200px', overflow:'hidden'}}>
+                                    <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/industries/Banking/bancs-finance-Card-1330x1270.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
                                 </div>
-                                <div className="col-sm-7 col-md-8 col-lg-9 col-xl-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta accusamus praesentium mollitia blanditiis quia vero, ipsum eveniet eum pariatur, doloremque odio sunt et impedit. Vitae iusto minus facilis neque, reprehenderit ipsam, quos vero, laborum maiores id aliquam. Possimus dolore veritatis ducimus, sapiente quas dolorum aspernatur suscipit tempora ea dolorem, exercitationem voluptas corrupti totam, earum ab. Veniam ipsam eius corporis ad excepturi voluptatibus, velit harum deleniti deserunt accusamus delectus quidem neque laboriosam inventore recusandae quo, sed voluptate repellendus rem possimus ratione quis?</div>
+                                <div className="col-md-8 col-lg-9 mt-md-0 mt-3">
+                                    <h4>Offering Software-as-a-Service across a stack of solutions and applications, Dreamstack BaNCS facilitates smooth transformation in financial services and drives growth.</h4>
+                                </div>
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -34,10 +38,12 @@ export default function Capabilities() {
                         <Accordion.Header><b><h2>03. Dreamstack and Google Cloud</h2></b></Accordion.Header>
                         <Accordion.Body>
                             <div className="row">
-                                <div className="col-sm-5 col-md-4 col-lg-3 col-xl-2">
-                                    <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/services/cyber-security/blogs/cloud-security-automation-cyber-hygiene-card-1330x1270.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
+                                <div className="col-md-4 col-lg-3" style={{maxHeight:'200px', overflow:'hidden'}}>
+                                    <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/industries/BSFI/bfsi-platforms-card.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
                                 </div>
-                                <div className="col-sm-7 col-md-8 col-lg-9 col-xl-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta accusamus praesentium mollitia blanditiis quia vero, ipsum eveniet eum pariatur, doloremque odio sunt et impedit. Vitae iusto minus facilis neque, reprehenderit ipsam, quos vero, laborum maiores id aliquam. Possimus dolore veritatis ducimus, sapiente quas dolorum aspernatur suscipit tempora ea dolorem, exercitationem voluptas corrupti totam, earum ab. Veniam ipsam eius corporis ad excepturi voluptatibus, velit harum deleniti deserunt accusamus delectus quidem neque laboriosam inventore recusandae quo, sed voluptate repellendus rem possimus ratione quis?</div>
+                                <div className="col-md-8 col-lg-9 mt-md-0 mt-3">
+                                    <h4>Dreamstack BFSI Platforms is a cloud-native, as-a-service digital ecosystem that helps FIs and insurance firms overcome challenges and deliver superior CX. Learn more.</h4>
+                                </div>
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -45,10 +51,12 @@ export default function Capabilities() {
                         <Accordion.Header><b><h2>04. Dreamstack and Microsoft Cloud</h2></b></Accordion.Header>
                         <Accordion.Body>
                             <div className="row">
-                                <div className="col-sm-5 col-md-4 col-lg-3 col-xl-2">
-                                    <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/services/cyber-security/blogs/cloud-security-automation-cyber-hygiene-card-1330x1270.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
+                                <div className="col-md-4 col-lg-3">
+                                    <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/products-platforms/products/tcschroma/chroma-hr-talent-management-solution-Tab-2048x1076.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
                                 </div>
-                                <div className="col-sm-7 col-md-8 col-lg-9 col-xl-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta accusamus praesentium mollitia blanditiis quia vero, ipsum eveniet eum pariatur, doloremque odio sunt et impedit. Vitae iusto minus facilis neque, reprehenderit ipsam, quos vero, laborum maiores id aliquam. Possimus dolore veritatis ducimus, sapiente quas dolorum aspernatur suscipit tempora ea dolorem, exercitationem voluptas corrupti totam, earum ab. Veniam ipsam eius corporis ad excepturi voluptatibus, velit harum deleniti deserunt accusamus delectus quidem neque laboriosam inventore recusandae quo, sed voluptate repellendus rem possimus ratione quis?</div>
+                                <div className="col-md-8 col-lg-9 mt-md-0 mt-3">
+                                    <h4>As enterprises adopt new ways of working, read how Dreamstack AI-driven workforce management solution helps promote workforce wellbeing & enhance productivity & EX.</h4>
+                                </div>
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -56,10 +64,12 @@ export default function Capabilities() {
                         <Accordion.Header><b><h2>05. Enterprise Cloud</h2></b></Accordion.Header>
                         <Accordion.Body>
                             <div className="row">
-                                <div className="col-sm-5 col-md-4 col-lg-3 col-xl-2">
-                                    <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/services/cyber-security/blogs/cloud-security-automation-cyber-hygiene-card-1330x1270.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
+                                <div className="col-md-4 col-lg-3">
+                                    <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/products-platforms/products/CII/customer-intelligence-insights-her-banner.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="#ImgNotFound" width='100%' />
                                 </div>
-                                <div className="col-sm-7 col-md-8 col-lg-9 col-xl-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta accusamus praesentium mollitia blanditiis quia vero, ipsum eveniet eum pariatur, doloremque odio sunt et impedit. Vitae iusto minus facilis neque, reprehenderit ipsam, quos vero, laborum maiores id aliquam. Possimus dolore veritatis ducimus, sapiente quas dolorum aspernatur suscipit tempora ea dolorem, exercitationem voluptas corrupti totam, earum ab. Veniam ipsam eius corporis ad excepturi voluptatibus, velit harum deleniti deserunt accusamus delectus quidem neque laboriosam inventore recusandae quo, sed voluptate repellendus rem possimus ratione quis?</div>
+                                <div className="col-md-8 col-lg-9 mt-md-0 mt-3">
+                                    <h4>Dreamstack Customer Intelligence & Insights (CI&I) helps organizations deliver relevant, connected, and personalized user experience in real-time. Learn how.</h4>
+                                </div>
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>

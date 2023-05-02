@@ -13,7 +13,7 @@ export default function Partner() {
                         <Accordion.Header><b><h2>01. Oracle</h2></b></Accordion.Header>
                         <Accordion.Body>
                             <p className={`${styles.sectionBody} text-muted`}>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, culpa voluptatum. Pariatur laudantium eaque id veritatis reiciendis necessitatibus, quis adipisci!
+                                Dreamstack Customer Intelligence & Insights (CI&I) helps organizations deliver relevant, connected, and personalized user experience in real-time. Learn how.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -21,7 +21,7 @@ export default function Partner() {
                         <Accordion.Header><b><h2>02. Salesforce</h2></b></Accordion.Header>
                         <Accordion.Body>
                             <p className={`${styles.sectionBody} text-muted`}>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, culpa voluptatum. Pariatur laudantium eaque id veritatis reiciendis necessitatibus, quis adipisci!
+                                Read how Dreamstack solution that can be deployed as a source to pay suite helps firms adopt agile sourcing & procurement, automate intelligently, & engage suppliers.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -29,7 +29,7 @@ export default function Partner() {
                         <Accordion.Header><b><h2>03. SAP</h2></b></Accordion.Header>
                         <Accordion.Body>
                             <p className={`${styles.sectionBody} text-muted`}>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, culpa voluptatum. Pariatur laudantium eaque id veritatis reiciendis necessitatibus, quis adipisci!
+                                Dreamstack ERP on Cloud platform, built around SAP S/4 HANA Core, provides real-time insights for informed decisions and helps accelerate digital transformation.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -37,7 +37,7 @@ export default function Partner() {
                         <Accordion.Header><b><h2>04. Specialist partners</h2></b></Accordion.Header>
                         <Accordion.Body>
                             <p className={`${styles.sectionBody} text-muted`}>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, culpa voluptatum. Pariatur laudantium eaque id veritatis reiciendis necessitatibus, quis adipisci!
+                                Dreamstack MasterCraft™ optimizes processes across software development, QA, low-code development, digital transformation, enterprise data quality, and privacy.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>

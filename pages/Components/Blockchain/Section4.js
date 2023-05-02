@@ -10,7 +10,7 @@ export default function Section4() {
                     <div className="col-md-6 col-lg-3 mt-3">
                         <div class="card w-100 h-100" style={{ border: '0' }}>
                             <div class="card-body">
-                                <img src="https://cdn-icons-png.flaticon.com/512/1088/1088537.png" alt="#ImgNotFound" style={{ width: '100px' }} />
+                                <img src="https://dv-website.s3.amazonaws.com/uploads/2022/08/kf_blockchainimplementation_aug22.jpg" alt="#ImgNotFound" style={{ width: '100px' }} />
                                 <h3 class="card-title mt-3"><b>Client Retention and Increased Profitability</b></h3>
                             </div>
                         </div>
@@ -18,7 +18,7 @@ export default function Section4() {
                     <div className="col-md-6 col-lg-3 mt-3">
                         <div class="card w-100 h-100" style={{ border: '0' }}>
                             <div class="card-body">
-                                <img src="https://cdn-icons-png.flaticon.com/512/1088/1088537.png" alt="#ImgNotFound" style={{ width: '100px' }} />
+                                <img src="https://uploads-ssl.webflow.com/5eb90728dc345d1fe8bed774/632012ac69b957fdc849728f_Blockchain%20Solutions.png" alt="#ImgNotFound" style={{ width: '100px' }} />
                                 <h3 class="card-title mt-3"><b>Secure Blockchain Software Systems</b></h3>
                             </div>
                         </div>
@@ -26,7 +26,7 @@ export default function Section4() {
                     <div className="col-md-6 col-lg-3 mt-3">
                         <div class="card w-100 h-100" style={{ border: '0' }}>
                             <div class="card-body">
-                                <img src="https://cdn-icons-png.flaticon.com/512/1088/1088537.png" alt="#ImgNotFound" style={{ width: '100px' }} />
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVlc4kS3DO0oGb3_ZSrTbMT-3JEFs_MErUlwwxGNMJcuVIq8zyx6_T8t3B4By0hjRamr0&usqp=CAU" alt="#ImgNotFound" style={{ width: '100px' }} />
                                 <h3 class="card-title mt-3"><b>Revamped Apps and Digital Tools</b></h3>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ export default function Section4() {
                     <div className="col-md-6 col-lg-3 mt-3">
                         <div class="card w-100 h-100" style={{ border: '0' }}>
                             <div class="card-body">
-                                <img src="https://cdn-icons-png.flaticon.com/512/1088/1088537.png" alt="#ImgNotFound" style={{ width: '100px' }} />
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlAqjgh8XzcAffhDh8Yp1YCtR-irhBVG4tDwCyUuk0hKudeMvH9OMIW-HqpznPEFFNY94&usqp=CAU" alt="#ImgNotFound" style={{ width: '100px' }} />
                                 <h3 class="card-title mt-3"><b>Intuitive Service and Maintenance</b></h3>
                             </div>
                         </div>
