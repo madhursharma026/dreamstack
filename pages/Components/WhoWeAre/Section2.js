@@ -8,10 +8,12 @@ export default function Section2() {
                     <div className="col-lg-6 p-lg-5 pt-5" style={{ margin: 'auto' }}>
                         <div className={`${styles.sectionBody}`}>
                             <h1 className={`${styles.sectionTitle}`}>Building greater futures through innovation and collective knowledge</h1>
-                            <p className={`${styles.sectionContent}`}>Tata Consultancy Services is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses for the past 50 years. We believe innovation and collective knowledge can transform all our futures with greater purpose.</p>
+                            <p className={`${styles.sectionContent}`}>
+                                Founded in 2014, Dreamstack is an Cloud computing, IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses for the past decade. Dreamstack We believe innovation and collective knowledge can transform all our futures with greater purpose. Dreamstack offers an array of cloud-native infrastructure products and services including physical bare-metal servers, cloud servers (both private and public), We registered our as Private Limited in 2020.
+                            </p>
                         </div>
                     </div>
-                    <div className="col-lg-6 p-lg-5 pt-5 text-center">
+                    <div className="col-lg-6 p-lg-5 pt-3 text-center" style={{ margin: 'auto' }}>
                         <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/who-we-are-asset?wid=1000&hei=1000&dpr=off" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                     </div>
                 </div>
