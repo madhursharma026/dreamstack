@@ -13,9 +13,9 @@ export default function Positions() {
     return (
         <div className={`px-md-4 px-3 py-md-5 py-3`} ref={myRef}>
             <div className={`${styles.ContainerWidth}`}>
-                <h1 className={`${styles.sectionTitle} text-center py-md-5 py-3`}><b>Open positions at Hubstaff</b></h1>
+                <h1 className={`${styles.sectionTitle} text-center py-md-5 py-3`}><b>Open positions at Dreamstack</b></h1>
 
-                <Accordion style={{ maxWidth: '1000px', margin: 'auto' }}>
+                <Accordion style={{ maxWidth: '1200px', margin: 'auto' }}>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header><b>Data Engineering Architect</b></Accordion.Header>
                         <Accordion.Body>
@@ -49,7 +49,7 @@ export default function Positions() {
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="2">
+                    <Accordion.Item eventKey="3">
                         <Accordion.Header><b>Senior Ruby on Rails Engineer</b></Accordion.Header>
                         <Accordion.Body>
                             <h6><span className="text-muted">Posted: </span>Thursday, January 12, 2023</h6>
@@ -61,8 +61,8 @@ export default function Positions() {
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
-                <div class="alert alert-secondary mt-3 text-center" role="alert" style={{ maxWidth: '1000px', margin: 'auto' }}>
-                    Hubstaff does not contact candidates through Facebook or other social media platforms. If you receive a job offer from someone via these channels, please report and disregard it.
+                <div class="alert alert-secondary mt-3 text-center" role="alert" style={{ maxWidth: '1200px', margin: 'auto' }}>
+                    Dreamstack does not contact candidates through Facebook or other social media platforms. If you receive a job offer from someone via these channels, please report and disregard it.
                 </div>
             </div>
         </div>

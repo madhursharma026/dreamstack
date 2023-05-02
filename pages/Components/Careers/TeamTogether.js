@@ -54,7 +54,7 @@ export default function TeamTogether() {
                             <div class="card-body">
                                 <h6 class={`card-title text-primary pb-3 ${styles.cardSubHeading}`}>IN_PERSON RETREAT</h6>
                                 <h5 class="card-subtitle mb-3"><b>Cancun 2019</b></h5>
-                                <p class="card-text text-muted">Hubstaffers met in person for idea-sharing, team-building, and beach volleyball. Check it out</p>
+                                <p class="card-text text-muted">Dreamstack met in person for idea-sharing, team-building, and beach volleyball. Check it out</p>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ export default function TeamTogether() {
                             <div class="card-body">
                                 <h6 class={`card-title text-primary pb-3 ${styles.cardSubHeading}`}>IN_PERSON RETREAT</h6>
                                 <h5 class="card-subtitle mb-3"><b>Punta Cana 2022</b></h5>
-                                <p class="card-text text-muted">In our first in-person retreat since 2019, Hubstaffers gathered for a week of team building, surfing, and beach volleyball.</p>
+                                <p class="card-text text-muted">In our first in-person retreat since 2019, Dreamstack gathered for a week of team building, surfing, and beach volleyball.</p>
                             </div>
                         </div>
                     </div>

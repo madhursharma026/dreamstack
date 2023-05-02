@@ -9,18 +9,18 @@ export default function Team() {
                         <img src="https://a.storyblok.com/f/172398/18245a2c83/image_take-a-closer-look.png" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                     </div>
                     <div className="col-lg-6 p-lg-5 pt-5">
-                        <h1 className={`${styles.sectionTitle} text-white`}>Take a closer look at the Hubstaff team</h1>
+                        <h1 className={`${styles.sectionTitle} text-white`}>Take a closer look at the Dreamstack team</h1>
                         <p className={`${styles.sectionBody} text-white`}>
                             We are mostly dog people (but we love cat people, too).<br />
                         </p>
                         <p className={`${styles.sectionBody} text-white`}>
-                            Hubstaffers generally spend their free time cooking, playing games, reading, working out, brewing beer, or hanging with the family.<br />
+                            Dreamstack generally spend their free time cooking, playing games, reading, working out, brewing beer, or hanging with the family.<br />
                         </p>
                         <p className={`${styles.sectionBody} text-white`}>
                             We're big into family. One of the great benefits of remote work is being home for bus pickup and drop-off.<br />
                         </p>
                         <p className={`${styles.sectionBody} text-white`}>
-                            Wellness is important to us. Many Hubstaffers lift weights, rock climb, and practice yoga — as reported in our #wellness Slack channel.<br />
+                            Wellness is important to us. Many Dreamstack lift weights, rock climb, and practice yoga — as reported in our #wellness Slack channel.<br />
                         </p>
                     </div>
                 </div>

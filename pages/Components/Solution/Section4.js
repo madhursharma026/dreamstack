@@ -15,13 +15,13 @@ export default function Section4() {
                         <h5 class="card-subtitle mb-3" style={{ marginTop: '-10px' }}><b>Faster, easier invoicing</b></h5>
                         <p class="card-text text-muted" style={{ marginTop: '-10px' }}>View profitability and budget data from over 18 different reports. See hours worked by client or project, keep an eye on costs, and more. You can schedule reports or export them for easy reference.</p>
 
-                        <h6 class={`text-primary pb-3 ${styles.cardSubHeading}`}>AVAILABLE FOR Hubstaff Desk</h6>
+                        <h6 class={`text-primary pb-3 ${styles.cardSubHeading}`}>AVAILABLE FOR Dreamstack Desk</h6>
                         <h5 class="card-subtitle mb-3" style={{ marginTop: '-10px' }}><b>Built-in productivity features</b></h5>
-                        <p class="card-text text-muted" style={{ marginTop: '-10px' }}>Hubstaff helps you boost staff productivity. View activity rates to identify overloaded or underutilized agency teams. See screenshots while tracking time, apps and URLs, and more.</p>
+                        <p class="card-text text-muted" style={{ marginTop: '-10px' }}>Dreamstack helps you boost staff productivity. View activity rates to identify overloaded or underutilized agency teams. See screenshots while tracking time, apps and URLs, and more.</p>
 
-                        <h6 class={`text-primary pb-3 ${styles.cardSubHeading}`}>Hubstaff Task</h6>
+                        <h6 class={`text-primary pb-3 ${styles.cardSubHeading}`}>Dreamstack Task</h6>
                         <h5 class="card-subtitle mb-3" style={{ marginTop: '-10px' }}><b>Time and project management in sync</b></h5>
-                        <p class="card-text text-muted" style={{ marginTop: '-10px' }}>Manage agency projects and make sure all of your client work is headed in the right direction with Hubstaff Tasks. Estimate hours needed and see actuals on each task as your team tracks time.</p>
+                        <p class="card-text text-muted" style={{ marginTop: '-10px' }}>Manage agency projects and make sure all of your client work is headed in the right direction with Dreamstack Tasks. Estimate hours needed and see actuals on each task as your team tracks time.</p>
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@ export default function Section4() {
                         <img src="https://a.storyblok.com/f/172398/97ac563750/01_codyrogers.png" alt="#ImgNotFound" className={`${styles.imgWidth} h-100`} />
                     </div>
                     <div className="col-lg-7 col-md-6 p-lg-5 pt-5">
-                        <p className={`${styles.carouselBody}`}>“Hubstaff saved us $170,000 a year and allowed us to streamline our business processes.”</p>
+                        <p className={`${styles.carouselBody}`}>“Dreamstack saved us $170,000 a year and allowed us to streamline our business processes.”</p>
                         <div className="row mt-xl-5 pt-xxl-5">
                             <div className="col-6">
                                 <h6 className={`pt-lg-5`}>Cody Rogers /<br /> Oregon, US</h6>

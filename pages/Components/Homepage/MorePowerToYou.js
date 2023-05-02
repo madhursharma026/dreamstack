@@ -11,7 +11,7 @@ export default function MorePowerToYou() {
                     </div>
                     <div className={`col-md-6 mt-lg-5 pt-md-5 ${styles.tryPocketContent}`}>
                         <h1 className={`${styles.sectionTitle} pt-5`}>More power to you.</h1>
-                        <p className={`${styles.sectionBody}`}>Mozilla puts people before profit, creating products, technologies and programs that make the internet healthier for everyone.</p>
+                        <p className={`${styles.sectionBody}`}>Dreamstack puts people before profit, creating products, technologies and programs that make the internet healthier for everyone.</p>
                         <Link href="/WhoWeAre" className={`${styles.learnMoreLink}`}>Learn more about us</Link>
                     </div>
                 </div>

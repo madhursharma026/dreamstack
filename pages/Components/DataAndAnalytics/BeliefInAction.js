@@ -10,7 +10,7 @@ export default function BeliefInAction() {
                         <div class={`${styles.columnData}`}>
                             <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/iot-architecture?wid=1900&hei=1069&dpr=off" alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
                             <div className='pt-3'>
-                                <h4>How TCS’ IoT Expertise Enhanced J&J’s Digital Transformation Journey</h4>
+                                <h4>How Dreamstack IoT Expertise Enhanced J&J’s Digital Transformation Journey</h4>
                             </div>
                         </div>
                     </div>

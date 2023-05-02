@@ -12,7 +12,7 @@ export default function Investors() {
                         <div className={`${styles.sectionBody}`}>
                             <h6><b>INVESTORS</b></h6>
                             <h1 className={`${styles.sectionTitle}`}>Positioned for long-term sustainable growth</h1>
-                            <p className={`${styles.sectionContent}`}>TCS is seen as a benchmark in its outreach to investors, in its transparency and disclosures, publicly communicating its strategy, risks and opportunities, reducing information asymmetries and enabling fair valuation of the stock.</p>
+                            <p className={`${styles.sectionContent}`}>Dreamstack is seen as a benchmark in its outreach to investors, in its transparency and disclosures, publicly communicating its strategy, risks and opportunities, reducing information asymmetries and enabling fair valuation of the stock.</p>
                         </div>
                     </div>
                 </div>

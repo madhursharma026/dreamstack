@@ -49,7 +49,7 @@ export default function Types() {
                         <h2>
                             Take Your Business to the Next Level by Outsourcing
                             <br />
-                            Your Software Requirements to Radixweb
+                            Your Software Requirements to Dreamstackweb
                         </h2>
                     </div>
                     <div className="col-lg-3 mt-3 text-center">

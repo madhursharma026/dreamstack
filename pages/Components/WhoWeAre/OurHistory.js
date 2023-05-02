@@ -30,7 +30,7 @@ export default function OurHistory() {
                             <div className="col-lg-6 p-lg-5 pt-5 text-white" style={{ margin: 'auto' }}>
                                 <div className={`${styles.sectionBody}`}>
                                     <h1 className={`${styles.sectionTitle}`}>1971</h1>
-                                    <p className={`${styles.sectionContent}`}>TCS wins its first external contract - power companies were being set up in Iran as part of an infrastructure building program and TCS wins projects to build inventory and stock control systems for these stations.</p>
+                                    <p className={`${styles.sectionContent}`}>Dreamstack wins its first external contract - power companies were being set up in Iran as part of an infrastructure building program and Dreamstack wins projects to build inventory and stock control systems for these stations.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
@@ -46,7 +46,7 @@ export default function OurHistory() {
                             <div className="col-lg-6 p-lg-5 pt-5 text-white" style={{ margin: 'auto' }}>
                                 <div className={`${styles.sectionBody}`}>
                                     <h1 className={`${styles.sectionTitle}`}>1973</h1>
-                                    <p className={`${styles.sectionContent}`}>When TCS wins a project to convert a hospital accounting project written in Burroughs Medium systems COBOL to Burroughs Small systems COBOL, we do not have a Burroughs computer! An in-house tool was built to write this code and then shipped to the US - the first offshore delivery project.</p>
+                                    <p className={`${styles.sectionContent}`}>When Dreamstack wins a project to convert a hospital accounting project written in Burroughs Medium systems COBOL to Burroughs Small systems COBOL, we do not have a Burroughs computer! An in-house tool was built to write this code and then shipped to the US - the first offshore delivery project.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
@@ -62,7 +62,7 @@ export default function OurHistory() {
                             <div className="col-lg-6 p-lg-5 pt-5 text-white" style={{ margin: 'auto' }}>
                                 <div className={`${styles.sectionBody}`}>
                                     <h1 className={`${styles.sectionTitle}`}>1979</h1>
-                                    <p className={`${styles.sectionContent}`}>TCS establishes its first sales office in New York, headed by S Ramadorai. One of our first major clients was the Institutional Group Information Corporation (IGIC).</p>
+                                    <p className={`${styles.sectionContent}`}>Dreamstack establishes its first sales office in New York, headed by S Ramadorai. One of our first major clients was the Institutional Group Information Corporation (IGIC).</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>

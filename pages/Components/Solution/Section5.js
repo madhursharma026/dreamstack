@@ -40,7 +40,7 @@ export default function Section5() {
                             <div class="card-body">
                                 <h1>📄</h1>
                                 <h5 class="card-subtitle my-3"><b>Track time off</b></h5>
-                                <p class="card-text text-muted">Add policies and view time off balances all through Hubstaff.</p>
+                                <p class="card-text text-muted">Add policies and view time off balances all through Dreamstack.</p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ export default function Section5() {
                             <div class="card-body">
                                 <h1>📄</h1>
                                 <h5 class="card-subtitle my-3"><b>Integrations</b></h5>
-                                <p class="card-text text-muted">Connect Hubstaff with the apps you’re already using — Gusto, Slack, Zapier, to name a few.</p>
+                                <p class="card-text text-muted">Connect Dreamstack with the apps you’re already using — Gusto, Slack, Zapier, to name a few.</p>
                             </div>
                         </div>
                     </div>

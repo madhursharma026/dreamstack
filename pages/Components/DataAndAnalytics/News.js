@@ -4,7 +4,7 @@ export default function News() {
     return (
         <div className={`px-md-4 px-3 py-md-5 py-3`}>
             <div className={`${styles.ContainerWidth} py-4`}>
-                <h6 className={`${styles.sectionTitle}`}>In the news</h6>
+                <h6 className={`${styles.sectionTitle}`}>In The Trend</h6>
                 <div className="row">
                     <div className="col-lg-3 col-sm-6 py-3">
                         <div class={`${styles.columnData}`}>

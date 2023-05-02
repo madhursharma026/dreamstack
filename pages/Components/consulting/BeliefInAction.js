@@ -26,7 +26,7 @@ export default function BeliefInAction() {
                         <div class={`${styles.columnData}`}>
                             <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/proximus-accelerates-enterprise-agile-transformation-journey-Web?wid=1900&hei=749&dpr=off" alt="#ImgNotFound" className='w-100' style={{ height: '300px' }} />
                             <div className='pt-3'>
-                                <h4>Proximus joins hands with TCS for enterprise agile transformation </h4>
+                                <h4>Proximus joins hands with Dreamstack for enterprise agile transformation </h4>
                             </div>
                         </div>
                     </div>

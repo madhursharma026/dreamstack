@@ -67,8 +67,8 @@ export default function ContactModule() {
                             {/* <div className='mx-' className='px-3'>
                                 <h1 className={`${styles.sectionTitle} pt-lg-5`}><b>Talk to us</b></h1>
                                 <p className={`${styles.sectionBody} text-muted`}>
-                                    If you have any questions about Hubstaff Time, Hubstaff Desk, Hubstaff Field, Hubstaff Tasks, or Hubstaff Talent, please contact us in English through the support chat or email us at <br />
-                                    <Link href="/" className={`${styles.supportedLink}`}>support@hubstaff.com</Link>
+                                    If you have any questions about Dreamstack Time, Dreamstack Desk, Dreamstack Field, Dreamstack Tasks, or Dreamstack Talent, please contact us in English through the support chat or email us at <br />
+                                    <Link href="/" className={`${styles.supportedLink}`}>support@Dreamstack.com</Link>
                                 </p>
                             </div>
                             <div style={{ background: "#F5F7FA" }} className='mt-5 py-3 px-3'>
@@ -95,8 +95,8 @@ export default function ContactModule() {
                             <div className={`${styles.maxWidthStyle} px-lg-0 px-3`}>
                                 <h1 className={`${styles.sectionTitle}`}><b>Talk to us</b></h1>
                                 <p className={`${styles.sectionBody} text-muted`}>
-                                    If you have any questions about Hubstaff Time, Hubstaff Desk, Hubstaff Field, Hubstaff Tasks, or Hubstaff Talent, please contact us in English through the support chat or email us at <br />
-                                    <Link href="/" className={`${styles.supportedLink}`}>support@hubstaff.com</Link>
+                                    If you have any questions about Dreamstack Time, Dreamstack Desk, Dreamstack Field, Dreamstack Tasks, or Dreamstack Talent, please contact us in English through the support chat or email us at <br />
+                                    <Link href="/" className={`${styles.supportedLink}`}>support@dreamstack.com</Link>
                                 </p>
                             </div>
                             <div style={{ background: "#F5F7FA" }} className={`${styles.maxWidthStyle} py-3 px-3`}>

@@ -45,7 +45,7 @@ export default function Galance() {
                             <div className="col-lg-6 p-lg-5 pt-5 text-white" style={{ margin: 'auto' }}>
                                 <div className={`${styles.sectionBody}`}>
                                     <h1 className={`${styles.sectionTitle}`}>Know-how</h1>
-                                    <p className={`${styles.sectionContent}`}>With TCS, you experience certainty. We are a knowledge network of the smartest minds and practitioners who apply concept to context for real outcomes..</p>
+                                    <p className={`${styles.sectionContent}`}>With Dreamstack, you experience certainty. We are a knowledge network of the smartest minds and practitioners who apply concept to context for real outcomes..</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>

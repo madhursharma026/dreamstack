@@ -15,7 +15,7 @@ export default function Quotes() {
                     </div>
                     <div className="col-lg-11 col-10">
                         <h6>SANTHA SUBRAMONI</h6>
-                        <h6>Head, Cybersecurity Services, TCS</h6>
+                        <h6>Head, Cybersecurity Services, Dreamstack</h6>
                     </div>
                 </div>
             </div>

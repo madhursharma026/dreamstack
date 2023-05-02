@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../../../styles/Homepage/IntroSection.module.css';
 
 export default function IntroSection() {
@@ -19,13 +20,15 @@ export default function IntroSection() {
                             </div>
                             <div className={`col-lg-6`}>
                                 <div className={`py-lg-5 ${styles.rightSide} px-3`}>
-                                    <h1 className={`${styles.sectionTitle} pt-md-5 pt-3 text-white`}><b>The productivity platform for e-commerce teams</b></h1>
-                                    <p className={`${styles.sectionBody} text-white`}>Increase efficiency and profit with e-commerce time tracking, proof of work, and more.</p>
-                                    <button type="button" class={`btn ${styles.openPositionBtn} px-4 py-3`}><b>Try Hubstaff for free</b></button>
-                                    <button type="button" class={`btn ${styles.salesBtn} px-4 py-3`}><b>Talk to sales</b></button>
+                                    <h1 className={`${styles.sectionTitle} pt-md-5 pt-3 text-white`}><b>Supercharging progress, sustainably</b></h1>
+                                    <p className={`${styles.sectionBody} text-white`}>At Dreamstack, we find ways to restore, regenerate and rebuild</p>
+                                    {/* <button type="button" class={`btn ${styles.openPositionBtn} px-4 py-3`}><b>Try Hubstaff for free</b></button> */}
+                                    <Link className={`btn ${styles.openPositionBtn} px-4 py-3`} href="/contact" role="button"><b>Try Dreamstack for free</b></Link>
+                                    {/* <button type="button" class={`btn ${styles.salesBtn} px-4 py-3`}><b>Talk to sales</b></button> */}
+                                    <Link className={`btn ${styles.salesBtn} px-4 py-3`} href="/contact" role="button"><b>Talk to sales</b></Link>
                                     <div className={`${styles.makeDivAlignCenterAfterLGScrn}`}>
-                                        <p className='mt-4 text-white'>No credit card required. <br className={`${styles.BRTagAfterMDScrn}`} /> Available for: <img src="https://marketing-assets-cms.hubstaff.com/public/images/logos/apple-mark-white.svg" alt="#ImgNotFound" /> &ensp; <img src="https://marketing-assets-cms.hubstaff.com/public/images/logos/android-mark-white.svg" alt="#ImgNotFound" /></p>
-                                        <div className="row">
+                                        {/* <p className='mt-4 text-white'>No credit card required. <br className={`${styles.BRTagAfterMDScrn}`} /> Available for: <img src="https://marketing-assets-cms.hubstaff.com/public/images/logos/apple-mark-white.svg" alt="#ImgNotFound" /> &ensp; <img src="https://marketing-assets-cms.hubstaff.com/public/images/logos/android-mark-white.svg" alt="#ImgNotFound" /></p> */}
+                                        <div className="row mt-4">
                                             <div className="col-lg-4">
                                                 <img src="https://hubstaff.com/images/logos/capterra-white.svg" alt="#ImgNotFound" />
                                                 <h6 className='p-2'>⭐⭐⭐⭐⭐</h6>
@@ -56,7 +59,7 @@ export default function IntroSection() {
                         </div>
                     </div>
                 </div>
-                <div class={`card ${styles.hideAfterLGScrn}`} style={{ width: "380px", marginTop: "-40px", marginLeft: '73%', position:"absolute" }}>
+                <div class={`card ${styles.hideAfterLGScrn}`} style={{ width: "380px", marginTop: "-40px", marginLeft: '73%', position: "absolute" }}>
                     <div class="card-body">
                         Integrates with:
                         <img src="https://hubstaff.com/images/logos/quickbooks-mark.svg" alt="#ImgNotFound" className='px-2' />

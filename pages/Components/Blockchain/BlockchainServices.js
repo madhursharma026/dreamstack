@@ -8,7 +8,7 @@ export default function BlockchainServices() {
                     <div className="text-center">
                         <h1 className={`${styles.sectionTitle}`}><b>Custom Blockchain Development Services We Offer</b></h1>
                         <br />
-                        <h4 className={`${styles.sectionBody}`}>End-to-end custom blockchain development services from Radixweb assist emerging startups and large-scale enterprises in leveraging distributed ledger technologies for cutting-edge applications today and empower them with enhanced security and increased transparency</h4>
+                        <h4 className={`${styles.sectionBody}`}>End-to-end custom blockchain development services from dreamstackweb assist emerging startups and large-scale enterprises in leveraging distributed ledger technologies for cutting-edge applications today and empower them with enhanced security and increased transparency</h4>
                     </div>
                     <br />
 
@@ -72,13 +72,13 @@ export default function BlockchainServices() {
                     </div>
                 </div>
             </div>
-            <div className='py-5' style={{ background: '#31BBAE', color:'white' }}>
+            <div className='py-5' style={{ background: '#31BBAE', color: 'white' }}>
                 <div className={`px-3 px-md-5 py-5 ${styles.ContainerWidth} row`}>
                     <div className="col-lg-10">
                         <h2>
-                           Add an Unparallel Edge to Your Business with 
-                           <br />
-                           Customized Blockchain Solutions
+                            Add an Unparallel Edge to Your Business with
+                            <br />
+                            Customized Blockchain Solutions
                         </h2>
                     </div>
                     <div className="col-lg-2 mt-3 text-center">

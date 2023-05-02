@@ -8,7 +8,7 @@ export default function Section1() {
                 <br />
                 <h4 className={`${styles.sectionBody} text-white`}>Equip your business with a sustainable and secure ecosystem of blockchain solutions</h4>
                 <br />
-                <h4 className={`${styles.sectionBody} text-white`}>Custom blockchain development services from Radixweb help you build a strong core for your next application by creating a decentralized blockchain network</h4>
+                <h4 className={`${styles.sectionBody} text-white`}>Custom blockchain development services from Dreamstackweb help you build a strong core for your next application by creating a decentralized blockchain network</h4>
             </div>
         </div >
     )

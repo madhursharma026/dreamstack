@@ -15,7 +15,7 @@ export default function Quotes() {
                     </div>
                     <div className="col-lg-11 col-10">
                         <h6>RAJESH GOPINATHAN</h6>
-                        <h6>CEO and Managing Director, TCS</h6>
+                        <h6>CEO and Managing Director, Dreamstack</h6>
                     </div>
                 </div>
             </div>

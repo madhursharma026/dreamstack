@@ -6,7 +6,7 @@ export default function WhyChoose() {
             <div className={`${styles.bodyContainer} px-3 py-5`}>
                 <div className={`py-5 ${styles.ContainerWidth}`}>
                     <div className="text-center">
-                        <h1 className={`${styles.sectionTitle}`}><b>Why Choose Radixweb as a Blockchain Development Company for Your Business?</b></h1>
+                        <h1 className={`${styles.sectionTitle}`}><b>Why Choose Dreamstackweb as a Blockchain Development Company for Your Business?</b></h1>
                         <br />
                         <h4 className={`${styles.sectionBody}`}>As a leading blockchain consulting and development company, we ensure to deliver guaranteed results by developing tailored blockchain applications, no matter how complex your project is!</h4>
                     </div>

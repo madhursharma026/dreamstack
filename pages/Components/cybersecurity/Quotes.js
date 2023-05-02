@@ -10,7 +10,7 @@ export default function Quotes() {
                 </h1>
                 <hr />
                 <h6>SANTHA SUBRAMONI</h6>
-                <h6>Head, Cybersecurity Services, TCS</h6>
+                <h6>Head, Cybersecurity Services, Dreamstack</h6>
             </div>
         </div>
     )

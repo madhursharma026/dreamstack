@@ -19,7 +19,7 @@ export default function Section3() {
                             <div class="card-body">
                                 <h6 class={`card-title text-primary pb-3 ${styles.cardSubHeading}`}>BUDGETING</h6>
                                 <h5 class="card-subtitle mb-3"><b>Manage clients budgets on auto-pilot</b></h5>
-                                <p class="card-text text-muted">Maximize billing by easily setting budget limits for each client. Hubstaff notifies you as you approach limits so you can stay profitable and keep your clients in the loop.</p>
+                                <p class="card-text text-muted">Maximize billing by easily setting budget limits for each client. Dreamstack notifies you as you approach limits so you can stay profitable and keep your clients in the loop.</p>
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ export default function Section3() {
                             <div class="card-body">
                                 <h6 class={`card-title text-primary pb-3 ${styles.cardSubHeading}`}>AUTOMATED PAYROLL</h6>
                                 <h5 class="card-subtitle mb-3"><b>Avoid headaches with automated payroll</b></h5>
-                                <p class="card-text text-muted">Work with freelancers or hourly staff? Set their pay rate, then automatically send international and local payments based on hours worked. Hubstaff’s automated timesheets make payroll a breeze.</p>
+                                <p class="card-text text-muted">Work with freelancers or hourly staff? Set their pay rate, then automatically send international and local payments based on hours worked. Dreamstack’s automated timesheets make payroll a breeze.</p>
                             </div>
                         </div>
                     </div>

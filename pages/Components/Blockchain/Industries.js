@@ -8,7 +8,7 @@ export default function Industries() {
                     <div className="text-center">
                         <h1 className={`${styles.sectionTitle}`}><b>Custom Blockchain Development Services We Offer</b></h1>
                         <br />
-                        <h4 className={`${styles.sectionBody}`}>End-to-end custom blockchain development services from Radixweb assist emerging startups and large-scale enterprises in leveraging distributed ledger technologies for cutting-edge applications today and empower them with enhanced security and increased transparency</h4>
+                        <h4 className={`${styles.sectionBody}`}>End-to-end custom blockchain development services from DreamstackWeb assist emerging startups and large-scale enterprises in leveraging distributed ledger technologies for cutting-edge applications today and empower them with enhanced security and increased transparency</h4>
                     </div>
                     <br />
 
