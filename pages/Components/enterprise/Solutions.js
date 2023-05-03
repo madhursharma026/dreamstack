@@ -4,7 +4,8 @@ import Accordion from 'react-bootstrap/Accordion';
 export default function Solutions() {
 
     return (
-        <div className={`${styles.ContainerWidth} px-3 mb-3`}>
+        <div className="px-md-4 px-3">
+        <div className={`${styles.ContainerWidth} mb-3`}>
             <Accordion style={{ maxWidth: '1200px', margin: 'auto' }}>
                 <p className={`${styles.sectionBody}`}>Our solutions</p>
                 <p className={`${styles.sectionBody} mb-5`} style={{ borderLeft: '4px solid red', paddingLeft: '10px' }}>With more than 200 offerings and proprietary innovations, we create intelligent, unique enterprise applications for your business.</p>
@@ -61,6 +62,7 @@ export default function Solutions() {
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
+        </div>
         </div>
     )
 }

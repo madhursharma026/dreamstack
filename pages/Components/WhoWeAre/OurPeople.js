@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function OurPeople() {
     return (
-        <div className={`${styles.bodyContainer} px-3`}>
+        <div className={`${styles.bodyContainer} px-md-4 px-3`}>
             <div className={`py-5 mt-5 ${styles.ContainerWidth}`}>
                 <div className="row">
                     <div className="col-md-6">

@@ -3,13 +3,14 @@ import styles from '../../../styles/cybersecurity/HaveAPieceOfMind.module.css';
 
 export default function HaveAPieceOfMind() {
     return (
-        <div className={`${styles.ContainerWidth} py-5 px-md-5 px-3`}>
+        <div className={`py-5 px-md-5 px-3`}>
+        <div className={`${styles.ContainerWidth}`}>
             <div style={{ maxWidth: '1100px', margin: 'auto' }} className='mb-5 px-3 text-center'>
                 <h6 className={`${styles.sectionTitle}`}><b>Have peace of mind with website security</b></h6>
                 <p className={`${styles.sectionBody}`}>Comprehensive website security software protects you from malware, DDoS attacks, phishing scams, bad bots and other types of malicious code and cyber threats. This includes the protection of your site code and web applications.</p>
                 <p className={`${styles.sectionBody}`}>SiteLock’s website protection plans vary based on the level of security needed. Some of our primary features include daily website scans to find threats, real-time notifications, automated malware removal, vulnerability/CMS patching to fix threats, a web application firewall to block and prevent harmful traffic before it ever reaches your site, a content delivery network (CDN) to accelerate your site speed (which can improve SEO) and a firewall PCI report to help eCommerce sites comply with banking institutions. Protect sensitive information and customer data with the following offerings.</p>
             </div>
-            <div className="row px-lg-5 px-3">
+            <div className="row px-lg-5">
                 <div className="col-md-6 mt-lg-5 mt-3">
                     <p className={`${styles.sectionBody} text-danger`}>
                         <img src="https://www.sitelock.com/images/website-scanning-a7b90a.svg" alt="#ImgNotFound" style={{ width: "60px", height: '60px', paddingTop: '10px' }} />
@@ -53,6 +54,7 @@ export default function HaveAPieceOfMind() {
                     <Link href="" className='text-black pb-2' style={{ marginLeft: '70px', borderBottom: '2px solid red', textDecoration: 'none' }}>LEARN MORE</Link>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

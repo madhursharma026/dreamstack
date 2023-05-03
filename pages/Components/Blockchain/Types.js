@@ -3,7 +3,7 @@ import styles from '../../../styles/Blockchain/ConsultingServices.module.css';
 export default function Types() {
     return (
         <>
-            <div className={`${styles.bodyContainer} px-3 py-5`}>
+            <div className={`${styles.bodyContainer} px-md-4 px-3 py-5`}>
                 <div className={`py-5 ${styles.ContainerWidth}`}>
                     <h1 className={`${styles.sectionTitle} text-center`}><b>Types of Blockchain Networks We Offer</b></h1>
                     <br />

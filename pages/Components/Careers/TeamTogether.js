@@ -10,8 +10,8 @@ export default function TeamTogether() {
 
     return (
         <>
-            <div className={`${styles.ContainerWidth} px-md-4 px-3`}>
-                <div className="text-center">
+            <div className={`${styles.ContainerWidth}`}>
+                <div className="text-center px-md-4 px-3">
                     <h1 className={`${styles.sectionTitle}`}>Getting the team <span className='text-primary'>together</span></h1>
                     {(activeCard === "1") ?
                         <>
@@ -48,7 +48,7 @@ export default function TeamTogether() {
                     }
                 </div>
 
-                <div className="row mx-xl-5 px-xl-5 mb-5">
+                <div className="row mx-xl-5 px-md-4 px-3 mb-5">
                     <div className={`col-lg-4`} style={{ cursor: "pointer" }}>
                         <div class={`card w-100 h-100 p-4 ${(activeCard === "1") ? `${styles.activeCard}` : `${styles.cardStyle}`}`} onClick={() => setActiveCardNo("1")}>
                             <div class="card-body">

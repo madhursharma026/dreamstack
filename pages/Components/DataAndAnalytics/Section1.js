@@ -21,7 +21,7 @@ export default function IntroSection() {
         //     </div>
         // </div>
 
-        <div className={`px-md-5 px-3 py-lg-0 py-5 mt-5 ${styles.IntroSection}`}>
+        <div className={`px-md-4 px-3 py-lg-0 py-5 mt-5 ${styles.IntroSection}`}>
             <div className={`${styles.ContainerWidth}`}>
                 <div className="row">
                     <div className={`${styles.imgStyle} col-lg-6 order-lg-2 pb-lg-0 pb-3`}>

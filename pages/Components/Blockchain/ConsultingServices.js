@@ -2,7 +2,8 @@ import styles from '../../../styles/Blockchain/ConsultingServices.module.css';
 
 export default function ConsultingServices() {
     return (
-        <div className={`${styles.bodyContainer} px-3 py-5`}>
+        <div className={`${styles.bodyContainer}`}>
+        <div className={`px-md-4 px-3`}>
             <div className={`py-5 mt-5 ${styles.ContainerWidth}`}>
                 <h1 className={`${styles.sectionTitle}`}><b>Make a Smart Shift with Our Blockchain Consulting Services</b></h1>
                 <br />
@@ -42,6 +43,7 @@ export default function ConsultingServices() {
                     </div>
                 </div>
             </div>
-        </div >
+        </div>
+        </div>
     )
 }

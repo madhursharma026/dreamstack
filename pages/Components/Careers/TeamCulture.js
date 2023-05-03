@@ -3,8 +3,8 @@ import styles from '../../../styles/careers/TeamCulture.module.css';
 export default function TeamCulture() {
 
     return (
-        <div className={`${styles.ContainerWidth} px-md-4 px-3 pt-5`}>
-            <div className="text-center">
+        <div className={`${styles.ContainerWidth}`}>
+            <div className="text-center px-md-4 px-3 pt-5">
                 <h1 className={`${styles.sectionTitle}`}>Our team culture</h1>
                 <p className={`${styles.sectionBody} text-muted`}>These behaviors show what it means to be a true Hubstar. <br /> It’s what we strive for and celebrate as a team.</p>
 

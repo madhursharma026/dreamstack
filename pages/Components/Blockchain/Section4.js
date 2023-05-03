@@ -2,8 +2,8 @@ import styles from '../../../styles/Blockchain/ConsultingServices.module.css';
 
 export default function Section4() {
     return (
-        <div className={`pt-5`}>
-            <div className={`px-3 py-5 ${styles.ContainerWidth} text-center`}>
+            <div className={`${styles.ContainerWidth} text-center`}>
+        <div className={`px-md-4 px-3 py-5 pt-5`}>
                 <h1 className={`${styles.sectionTitle}`}><b>Blockchain for Enterprises to Scale Up</b></h1>
                 <br />
                 <div className="row">
@@ -42,7 +42,7 @@ export default function Section4() {
                 </div>
             </div>
 
-            <div className='py-5' style={{ background: '#F5F5F5' }}>
+            <div className='mx-md-4 mx-3 py-5' style={{ background: '#F5F5F5' }}>
                 <div className={`px-3 py-5 ${styles.ContainerWidth} row`}>
                     <div className="col-lg-10">
                         <h2>

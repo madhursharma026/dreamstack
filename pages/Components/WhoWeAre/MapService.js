@@ -4,11 +4,11 @@ import Carousel from 'react-bootstrap/Carousel';
 export default function MapService() {
     return (
         <div className={`px-md-4 px-3 pb-lg-0 pb-5`}>
-            <div className={`px-3 ${styles.ContainerWidth}`}>
+            <div className={`${styles.ContainerWidth}`}>
                 <h2 className={`${styles.subTitle}`}><b>Our Service Map</b></h2>
                 <div className="row">
                     <div className="col-sm-6 col-md-4 mt-3">
-                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid blue' }}>
+                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid black' }}>
                             <div class="card-body">
                                 <h4 class="card-title text-center"><b>IT consulting</b></h4>
                                 <ul style={{ listStyleType: 'square' }}>
@@ -20,7 +20,7 @@ export default function MapService() {
                         </div>
                     </div>
                     <div className="col-sm-6 col-md-4 mt-3">
-                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid blue' }}>
+                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid black' }}>
                             <div class="card-body">
                                 <h4 class="card-title text-center"><b>Software development</b></h4>
                                 <ul style={{ listStyleType: 'square' }}>
@@ -31,7 +31,7 @@ export default function MapService() {
                         </div>
                     </div>
                     <div className="col-sm-6 col-md-4 mt-3">
-                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid blue' }}>
+                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid black' }}>
                             <div class="card-body">
                                 <h4 class="card-title text-center"><b>Testing and QA</b></h4>
                                 <ul style={{ listStyleType: 'square' }}>
@@ -42,7 +42,7 @@ export default function MapService() {
                         </div>
                     </div>
                     <div className="col-sm-6 col-md-4 mt-3">
-                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid blue' }}>
+                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid black' }}>
                             <div class="card-body">
                                 <h4 class="card-title text-center"><b>Application services</b></h4>
                                 <ul style={{ listStyleType: 'square' }}>
@@ -54,7 +54,7 @@ export default function MapService() {
                         </div>
                     </div>
                     <div className="col-sm-6 col-md-4 mt-3">
-                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid blue' }}>
+                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid black' }}>
                             <div class="card-body">
                                 <h4 class="card-title text-center"><b>Data analytics</b></h4>
                                 <ul style={{ listStyleType: 'square' }}>
@@ -66,7 +66,7 @@ export default function MapService() {
                         </div>
                     </div>
                     <div className="col-sm-6 col-md-4 mt-3">
-                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid blue' }}>
+                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid black' }}>
                             <div class="card-body">
                                 <h4 class="card-title text-center"><b>Infrastructure services</b></h4>
                                 <ul style={{ listStyleType: 'square' }}>
@@ -77,7 +77,7 @@ export default function MapService() {
                         </div>
                     </div>
                     <div className="col-sm-6 col-md-4 mt-3">
-                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid blue' }}>
+                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid black' }}>
                             <div class="card-body">
                                 <h4 class="card-title text-center"><b>Help Desk services</b></h4>
                                 <ul style={{ listStyleType: 'square' }}>
@@ -88,7 +88,7 @@ export default function MapService() {
                         </div>
                     </div>
                     <div className="col-sm-6 col-md-4 mt-3">
-                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid blue' }}>
+                        <div class="card h-100" style={{ borderRadius: '0', borderTop: '10px solid black' }}>
                             <div class="card-body">
                                 <h4 class="card-title text-center"><b>Cybersecurity services</b></h4>
                                 <ul style={{ listStyleType: 'square' }}>

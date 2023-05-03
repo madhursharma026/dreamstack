@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 export default function Partnerships() {
     return (
         <div className={`px-md-4 px-3 pb-lg-0 pb-5 mt-lg-5 mt-0`}>
-            <div className={`px-3 ${styles.ContainerWidth}`}>
+            <div className={`${styles.ContainerWidth}`}>
                 <h1 className={`${styles.sectionTitle}`}>Our technology partnerships</h1>
                 <p className={`${styles.sectionContent}`}>
                     Throughout our history, we have developed a number of <b>partnerships with technology leaders</b>, who highly attested our technical competencies and the ability to understand our customers’ needs and translate them into quality services:

@@ -4,7 +4,8 @@ import styles from '../../../styles/cybersecurity/AdditionalResources.module.css
 
 export default function AdditionalResources() {
     return (
-        <div className={`${styles.ContainerWidth} py-5 px-md-5 px-3 text-center`}>
+        <div className={`py-5 text-center px-md-5 px-3`}>
+        <div className={`${styles.ContainerWidth}`}>
             <h1 className={`${styles.sectionTitle}`}><b>Additional Resources</b></h1>
             <p className={`${styles.sectionBody}`}>Interested in learning more? Check out some of our helpful resources for more information.</p>
             <div className="row text-center">
@@ -23,6 +24,7 @@ export default function AdditionalResources() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
