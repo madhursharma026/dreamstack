@@ -58,9 +58,9 @@
     color: #ffffff;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 991px) {
     .ContainerWidth {
-        padding: 0 40px;
+        padding: 0 30px;
     }
 }
 
