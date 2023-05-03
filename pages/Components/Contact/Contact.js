@@ -30,10 +30,10 @@ export default function ContactModule() {
         e.preventDefault()
 
         emailjs.sendForm(
-            "service_y3z8i9o",
-            "template_iyhuyja",
+            "service_2xg337q",
+            "template_w1qgd2s",
             e.target,
-            "IKf1WKmDxxkLI6eTQ"
+            "9K5LegCxrzIOeCns1"
         ).then(res => {
             setFullName("")
             setEmailAddress("")
