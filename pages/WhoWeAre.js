@@ -10,6 +10,7 @@ import Section2 from "./Components/WhoWeAre/Section2";
 import TalkToExpert from "./Components/WhoWeAre/TalkToExpert";
 import MapService from "./Components/WhoWeAre/MapService";
 import Partnerships from "./Components/WhoWeAre/partnerships";
+import OurPricingPolicy from "./Components/WhoWeAre/OurPricingPolicy";
 
 export default function WhoWeAre() {
     return (
@@ -23,9 +24,11 @@ export default function WhoWeAre() {
             <WhomWeServe />
             <MapService />
             <Partnerships />
+            <OurPricingPolicy />
             <Investors />
             <TalkToExpert />
             <Footer />
         </>
     )
 }
+
