@@ -71,7 +71,6 @@ export default function Galance() {
                     </div>
                 </div>
                 <button class={`${styles.leftArrow} carousel-control-prev`} type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    {/* <span class="carousel-control-prev-icon" aria-hidden="true"></span> */}
                     <img src="https://www.svgrepo.com/show/346529/arrow-left-circle.svg" alt="#ImgNotFound" width='100px' height='100px' />
                     <span class="visually-hidden">Previous</span>
                 </button>
@@ -83,3 +82,4 @@ export default function Galance() {
         </div>
     )
 }
+

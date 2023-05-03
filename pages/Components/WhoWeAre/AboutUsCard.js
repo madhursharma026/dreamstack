@@ -1,5 +1,4 @@
 import styles from '../../../styles/WhoWeAre/AboutUsCard.module.css';
-import Link from 'next/link';
 
 export default function AboutUsCard() {
     return (

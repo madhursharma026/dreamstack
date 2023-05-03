@@ -171,7 +171,6 @@ export default function KnowledgeSection() {
                             <br />
                             <h1 className="text-white">Ignite your transformation</h1>
                             <p className="text-white">We're matching your answers with the latest Dreamstack insights and expertise</p>
-                            {/* &ensp; Loading... */}
                         </div>
                     }
                 </div>

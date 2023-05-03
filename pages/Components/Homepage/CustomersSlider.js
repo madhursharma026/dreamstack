@@ -3,19 +3,7 @@ import styles from '../../../styles/Homepage/CustomersSlider.module.css';
 export default function CustomersSlider() {
     return (
         <div>
-            {/* <div style={{ display: 'flex', height: '64px', overflow: 'hidden', width: '100%' }}>
-                <img src="https://www.digitalocean.com/_next/static/media/topWaveSliceBlue5.57825f7b.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/topWaveSliceBlue5.57825f7b.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/topWaveSliceBlue5.57825f7b.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/topWaveSliceBlue5.57825f7b.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/topWaveSliceBlue5.57825f7b.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/topWaveSliceBlue5.57825f7b.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/topWaveSliceBlue5.57825f7b.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/topWaveSliceBlue5.57825f7b.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/topWaveSliceBlue5.57825f7b.svg" alt="#ImgNotFound" />
-            </div> */}
             <div className='py-4' style={{ background: '#E3EFFF' }}>
-                {/* <div className={`${styles.ContainerWidth}`}> */}
                 <h1 className={`${styles.sectionTitle} text-center`}><b>Our Partners</b></h1>
                 <div class={`${styles.imageSlider}`}>
                     <div class={`${styles.imageSliderTrack}`}>
@@ -95,18 +83,7 @@ export default function CustomersSlider() {
                         </div>
                     </div>
                 </div>
-                {/* </div> */}
             </div>
-            {/* <div style={{ display: 'flex', height: '64px', overflow: 'hidden', width: '100%' }}>
-                <img src="https://www.digitalocean.com/_next/static/media/bottomWaveSliceBlue5.47e176fb.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/bottomWaveSliceBlue5.47e176fb.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/bottomWaveSliceBlue5.47e176fb.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/bottomWaveSliceBlue5.47e176fb.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/bottomWaveSliceBlue5.47e176fb.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/bottomWaveSliceBlue5.47e176fb.svg" alt="#ImgNotFound" />
-                <img src="https://www.digitalocean.com/_next/static/media/bottomWaveSliceBlue5.47e176fb.svg" alt="#ImgNotFound" />
-            </div> */}
         </div>
     )
 }
-

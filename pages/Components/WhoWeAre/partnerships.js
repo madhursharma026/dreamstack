@@ -1,5 +1,4 @@
 import styles from '../../../styles/WhoWeAre/MapService.module.css';
-import Carousel from 'react-bootstrap/Carousel';
 
 export default function Partnerships() {
     return (

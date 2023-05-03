@@ -6,7 +6,6 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import React, { useEffect, useState } from "react";
 import styles from "../../styles/Header.module.css";
 
-
 function Header() {
 
     const [visible, setVisible] = useState(true)
@@ -79,12 +78,10 @@ function Header() {
                                 <Link href="/TermsAndCondition" className={`px-lg-3 px-2 pt-3 ${styles.menuOptions}`} onMouseEnter={() => setIsShown(false)}><b>Terms</b></Link>
                             </Nav>
                             <div className={`${styles.navOptionBeforeLG}`}>
-                                {/* <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button> */}
                                 <Link className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`} href="/contact" role="button"><b>Contact Us</b></Link>
                             </div>
                             <Nav className={`me-auto my-2 my-lg-0 ${styles.navOptionAfterLG}`} navbarScroll>
                                 <div style={{ display: "flex", justifyContent: "center" }}>
-                                    {/* <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button> */}
                                     <Link className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`} href="/contact" role="button"><b>Contact Us</b></Link>
                                 </div>
                                 <hr />

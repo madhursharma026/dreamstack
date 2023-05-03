@@ -1,12 +1,11 @@
-import styles from '../../../styles/cybersecurity/Services.module.css';
 import Accordion from 'react-bootstrap/Accordion';
+import styles from '../../../styles/cybersecurity/Services.module.css';
 
 export default function Solutions() {
 
     return (   
     <div className={`px-md-4 px-3`}>
     <div className={`${styles.ContainerWidth}`}>
-        {/* <div className={`${styles.ContainerWidth} py-3 px-3`}> */}
             <Accordion>
                 <p className={`${styles.sectionBody}`}>Our solutions</p>
                 <p className={`${styles.sectionBody} mb-5`} style={{ borderLeft: '4px solid red', paddingLeft: '10px' }}>We help enterprises turn data into value. Here’s how.</p>
@@ -67,3 +66,4 @@ export default function Solutions() {
         </div>
     )
 }
+

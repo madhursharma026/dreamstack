@@ -1,7 +1,6 @@
-import styles from '../../../styles/Homepage/LoveTheWeb.module.css'
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Form from 'react-bootstrap/Form';
-import Col from 'react-bootstrap/Col';
+import styles from '../../../styles/Homepage/LoveTheWeb.module.css'
 
 export default function LoveTheWeb() {
     const [visibleForm, setVisibleForm] = useState(false)

@@ -5,8 +5,8 @@ export default function DitchTheOffice() {
         <div className={`px-md-4 px-3 py-md-5`}>
             <div className={`${styles.ContainerWidth}`}>
                 <div className="row" style={{ maxWidth: '1000px', margin: 'auto' }}>
-                    <div className="col-lg-6 p-lg-5 pt-5 text-center">
-                        <img src="https://a.storyblok.com/f/172398/afc04b38af/jobs-retreat-desktop-2x.png" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
+                    <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
+                        <img src="https://d2mk45aasx86xg.cloudfront.net/collaboration_98966a26b3.svg" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                     </div>
                     <div className="col-lg-6 p-lg-5 pt-5">
                         <h1 className={`${styles.sectionTitle}`}>Ditch the office</h1>

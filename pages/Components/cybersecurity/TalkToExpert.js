@@ -1,5 +1,5 @@
-import styles from '../../../styles/cybersecurity/TalkToExpert.module.css';
 import Link from 'next/link';
+import styles from '../../../styles/cybersecurity/TalkToExpert.module.css';
 
 export default function TalkToExpert() {
     return (
@@ -20,3 +20,4 @@ export default function TalkToExpert() {
         </div>
     )
 }
+

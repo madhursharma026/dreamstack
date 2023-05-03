@@ -5,8 +5,8 @@ export default function Section2() {
         <div className={`px-md-4 px-3 py-md-5`}>
             <div className={`${styles.ContainerWidth}`}>
                 <div className="row" style={{ maxWidth: '1000px', margin: 'auto' }}>
-                    <div className="col-lg-6 p-lg-5 pt-5 text-center">
-                        <img src="https://a.storyblok.com/f/172398/398a827549/image_flexibility-productivity-joy.png" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
+                    <div className="col-lg-6 p-lg-5 pt-5 text-center" style={{ margin: 'auto' }}>
+                        <img src="https://d2mk45aasx86xg.cloudfront.net/profile_46abbc9a32.svg" alt="#ImgNotFound" className={`${styles.imgWidth}`} />
                     </div>
                     <div className="col-lg-6 p-lg-5 pt-5">
                         <h1 className={`${styles.sectionTitle}`}>Flexibility, productivity, joy — it’s what Dreamstack is all about</h1>

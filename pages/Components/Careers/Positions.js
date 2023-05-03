@@ -1,7 +1,7 @@
-import styles from '../../../styles/careers/Positions.module.css';
-import Accordion from 'react-bootstrap/Accordion';
 import { useRef } from 'react';
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import Accordion from 'react-bootstrap/Accordion';
+import styles from '../../../styles/careers/Positions.module.css';
 
 export default function Positions() {
     const myRef = useRef()
@@ -70,3 +70,4 @@ export default function Positions() {
         </div>
     )
 }
+

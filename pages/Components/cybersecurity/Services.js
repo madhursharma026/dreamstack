@@ -1,7 +1,7 @@
-import styles from '../../../styles/cybersecurity/Services.module.css';
-import Accordion from 'react-bootstrap/Accordion';
 import { useRef } from 'react';
 import { useEffect, useState } from "react";
+import Accordion from 'react-bootstrap/Accordion';
+import styles from '../../../styles/cybersecurity/Services.module.css';
 
 export default function Services() {
     const myRef = useRef()
@@ -118,3 +118,4 @@ export default function Services() {
         </div>
     )
 }
+

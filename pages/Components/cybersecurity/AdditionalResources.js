@@ -1,5 +1,3 @@
-import Link from 'next/link';
-import Carousel from 'react-bootstrap/Carousel';
 import styles from '../../../styles/cybersecurity/AdditionalResources.module.css';
 
 export default function AdditionalResources() {
@@ -28,3 +26,4 @@ export default function AdditionalResources() {
         </div>
     )
 }
+

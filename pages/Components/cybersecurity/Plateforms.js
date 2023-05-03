@@ -1,5 +1,3 @@
-import Link from 'next/link';
-import Carousel from 'react-bootstrap/Carousel';
 import styles from '../../../styles/cybersecurity/BrandCarousel.module.css';
 
 export default function Plateforms() {

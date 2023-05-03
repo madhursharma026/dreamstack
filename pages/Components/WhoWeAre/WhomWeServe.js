@@ -1,5 +1,4 @@
 import styles from '../../../styles/WhoWeAre/Galance.module.css';
-import Carousel from 'react-bootstrap/Carousel';
 
 export default function WhomWeServe() {
     return (

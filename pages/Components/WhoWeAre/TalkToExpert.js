@@ -4,12 +4,10 @@ import styles from '../../../styles/cybersecurity/TalkToExpert.module.css';
 export default function TalkToExpert() {
     return (
         <div className={`px-md-4 px-3 py-md-5 py-3 px-xl-5`} style={{ background: "#1E2222" }}>
-            {/* <div className={`${styles.ContainerWidth} py-4`}> */}
             <div className="row px-lg-5 py-5">
                 <div className={`col-md-6 pt-3`}>
                     <h1 className={`${styles.sectionTitle} text-white`}>Transformation starts here</h1>
                     <h5 className="text-muted my-3">Reimagine your future.</h5>
-                    {/* <button type="button" class={`btn ${styles.btnStyle} text-white`}>Talk To our Expert</button> */}
                     <Link className={`btn ${styles.btnStyle} text-white`} href="/contact" role="button">Talk To our Expert</Link>
                 </div>
                 <div className="col-md-6 pt-3 text-white" style={{ borderLeft: '2px solid white' }}>
@@ -20,7 +18,6 @@ export default function TalkToExpert() {
                     </div>
                 </div>
             </div>
-            {/* </div> */}
         </div>
     )
 }

@@ -12,11 +12,6 @@ export default function Section2() {
                         </div>
                     </div>
                     <div className="col-lg-6 p-lg-5 pt-5 text-center">
-                        {/* <video controls className={`${styles.imgWidth}`}>
-                            <source src="https://player.vimeo.com/external/465045589.sd.mp4?s=1eec28c78290e7d8a4def914c779d959bd62d6cb&profile_id=164&oauth2_token_id=57447761" type="video/mp4" />
-                            <source src="https://player.vimeo.com/external/465045589.sd.mp4?s=1eec28c78290e7d8a4def914c779d959bd62d6cb&profile_id=164&oauth2_token_id=57447761" type="video/ogg" />
-                            Your browser does not support the video tag.
-                        </video> */}
                         <img src="https://d2mk45aasx86xg.cloudfront.net/graph_be4a9cff45.svg" alt="#ImgNotFound" style={{width:'100%'}} />
                     </div>
                 </div>

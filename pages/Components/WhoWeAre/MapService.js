@@ -1,5 +1,4 @@
 import styles from '../../../styles/WhoWeAre/MapService.module.css';
-import Carousel from 'react-bootstrap/Carousel';
 
 export default function MapService() {
     return (
@@ -103,3 +102,4 @@ export default function MapService() {
         </div>
     )
 }
+

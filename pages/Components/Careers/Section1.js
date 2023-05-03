@@ -1,5 +1,5 @@
-import styles from '../../../styles/careers/Section1.module.css';
 import Link from 'next/link';
+import styles from '../../../styles/careers/Section1.module.css';
 
 export default function Section1() {
 
@@ -26,3 +26,4 @@ export default function Section1() {
         </div>
     )
 }
+

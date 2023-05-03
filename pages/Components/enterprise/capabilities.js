@@ -1,5 +1,4 @@
 import styles from '../../../styles/cybersecurity/Services.module.css';
-import Accordion from 'react-bootstrap/Accordion';
 
 export default function Capabilities() {
 
@@ -33,3 +32,4 @@ export default function Capabilities() {
         </div>
     )
 }
+

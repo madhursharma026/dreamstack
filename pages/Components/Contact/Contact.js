@@ -1,8 +1,8 @@
 import Link from 'next/link';
+import { useState } from 'react';
 import emailjs from "emailjs-com";
-import { useState, useEffect } from 'react';
-import Snackbar from '@mui/material/Snackbar';
 import { Alert } from '@mui/material';
+import Snackbar from '@mui/material/Snackbar';
 import styles from '../../../styles/Contact/contact.module.css';
 
 export default function ContactModule() {
@@ -64,34 +64,6 @@ export default function ContactModule() {
                             <h1 className={`${styles.sectionTitle} text-white py-md-5 py-3 px-5 ${styles.leftSide}`}><b>We’d love to hear from you</b></h1>
                         </div>
                         <div className={`col-lg-6 pt-5 mt-lg-5`}>
-                            {/* <div className='mx-' className='px-3'>
-                                <h1 className={`${styles.sectionTitle} pt-lg-5`}><b>Talk to us</b></h1>
-                                <p className={`${styles.sectionBody} text-muted`}>
-                                    If you have any questions about Dreamstack Time, Dreamstack Desk, Dreamstack Field, Dreamstack Tasks, or Dreamstack Talent, please contact us in English through the support chat or email us at <br />
-                                    <Link href="/" className={`${styles.supportedLink}`}>support@Dreamstack.com</Link>
-                                </p>
-                            </div>
-                            <div style={{ background: "#F5F7FA" }} className='mt-5 py-3 px-3'>
-                                <div className='mx-'>
-                                    <h1 className={`${styles.subHeading2} mt-3`}><b>Couldn't get ahold of us?</b></h1>
-                                    <p className={`${styles.sectionBody} text-muted`}>Request a callback and we'll get back to you.</p>
-                                    <form onSubmit={(e) => sendEmail(e)}>
-                                        <div class="mb-3">
-                                            <label for="fullName" class="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Full Name</label>
-                                            <input type="text" class="form-control" id="fullName" name='fullName' placeholder="What's your name?" required onChange={(e) => setFullName(e.target.value)} value={fullName} />
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="emailAddress" class="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Email</label>
-                                            <input type="email" class="form-control" id="emailAddress" name='emailAddress' placeholder="Enter your email" required onChange={(e) => setEmailAddress(e.target.value)} value={emailAddress} />
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="phoneNumber" class="form-label" style={{ fontSize: "14px", fontWeight: "600" }}>Phone Number</label>
-                                            <input type="text" class="form-control" id="phoneNumber" name='phoneNumber' placeholder="+1 (123) 456-7890" required onChange={(e) => setPhoneNumber(e.target.value)} value={phoneNumber} />
-                                        </div>
-                                        <button type="submit" class={`btn btn-primary ${styles.callMeBack} my-5`}>Call me back</button>
-                                    </form>
-                                </div>
-                            </div> */}
                             <div className={`${styles.maxWidthStyle} px-lg-0 px-3`}>
                                 <h1 className={`${styles.sectionTitle}`}><b>Talk to us</b></h1>
                                 <p className={`${styles.sectionBody} text-muted`}>

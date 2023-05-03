@@ -1,5 +1,5 @@
-import styles from '../../../styles/careers/Review.module.css';
 import Carousel from 'react-bootstrap/Carousel';
+import styles from '../../../styles/careers/Review.module.css';
 
 export default function Review() {
 
