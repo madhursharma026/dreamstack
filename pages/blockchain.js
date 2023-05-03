@@ -12,10 +12,15 @@ import GetInTouch from "./Components/Blockchain/GetInTouch";
 import Industries from "./Components/Blockchain/Industries";
 import BlockchainServices from "./Components/Blockchain/BlockchainServices";
 import ConsultingServices from "./Components/Blockchain/ConsultingServices";
+import Head from "next/head";
 
 export default function WhoWeAre() {
     return (
         <>
+            <Head>
+                <title>Blockchain - Dreamstack</title>
+                <meta name="description" content="Blockchain - Dreamstack" />
+            </Head>
             <Header />
             <Section1 />
             <Section2 />

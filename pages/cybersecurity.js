@@ -1,24 +1,29 @@
-import Section2 from "./Components/cybersecurity/Section2";
-import OurApproach from "./Components/cybersecurity/OurApproach";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
+import Quotes from "./Components/cybersecurity/Quotes";
+import InFocus from "./Components/cybersecurity/InFocus";
+import Section1 from "./Components/cybersecurity/Section1";
 import Services from "./Components/cybersecurity/Services";
 import Insights from "./Components/cybersecurity/Insights";
 import Benefits from "./Components/cybersecurity/Benefits";
+import Section2 from "./Components/cybersecurity/Section2";
 import Insights2 from "./Components/cybersecurity/Insights2";
-import Quotes from "./Components/cybersecurity/Quotes";
-import InFocus from "./Components/cybersecurity/InFocus";
-import TalkToExpert from "./Components/cybersecurity/TalkToExpert";
-import Section1 from "./Components/cybersecurity/Section1";
-import HaveAPieceOfMind from "./Components/cybersecurity/HaveAPieceOfMind";
-import BrandCarousel from "./Components/cybersecurity/BrandCarousel";
 import Plateforms from "./Components/cybersecurity/Plateforms";
-import AdditionalResources from "./Components/cybersecurity/AdditionalResources";
+import OurApproach from "./Components/cybersecurity/OurApproach";
+import TalkToExpert from "./Components/cybersecurity/TalkToExpert";
 import SecurityRisk from "./Components/cybersecurity/SecurityRisk";
+import BrandCarousel from "./Components/cybersecurity/BrandCarousel";
+import HaveAPieceOfMind from "./Components/cybersecurity/HaveAPieceOfMind";
+import AdditionalResources from "./Components/cybersecurity/AdditionalResources";
+import Head from "next/head";
 
 export default function cybersecurity() {
   return (
     <>
+      <Head>
+        <title>Cybersecurity - Dreamstack</title>
+        <meta name="description" content="Cybersecurity - Dreamstack" />
+      </Head>
       <Header />
       <Section1 />
       <Section2 />
@@ -39,3 +44,4 @@ export default function cybersecurity() {
     </>
   )
 }
+
