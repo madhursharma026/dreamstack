@@ -46,8 +46,8 @@ function Header() {
                                         </ul>
                                     </div>
                                     <div className={`col-xl-5 col-4 py-5`}>
-                                        <h3>TCS is here to make a difference through technology.</h3>
-                                        <p className={`${styles.sectionBody} pt-3`}>Leading the way in innovation for over 50 years, we build greater futures for businesses across multiple industries and 131 countries.</p>
+                                        <h3>Dreamstack is here to make a difference through technology.</h3>
+                                        <p className={`${styles.sectionBody} pt-3`}>Leading the way in innovation for over a decade, we build greater futures for businesses across multiple industries and cloud-native infrastructure.</p>
                                     </div>
                                     <div className={`col-xl-4 col-4 py-5`} style={{ background: '#F5F7FA' }}>
                                         <h5 className="text-center"><b>TALK TO US</b></h5>
@@ -55,7 +55,7 @@ function Header() {
                                         <div className="text-center">
                                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7cMEr9HXbWjjGArjVcAbnfiUbbfIcSSM4EQ&usqp=CAU" alt="#ImgNotFound" style={{ borderRadius: "100%", width: "125px", height: "125px" }} />
                                         </div>
-                                        <p className={`${styles.sectionBody} pt-3 px-lg-5 px-3`}>Learn more about Hubstaff from our in-house product specialist.</p>
+                                        <p className={`${styles.sectionBody} pt-3 px-lg-5 px-3`}>Learn more about Dreamstack from our in-house product specialist.</p>
                                         <hr />
                                     </div>
                                 </div>
