@@ -19,6 +19,17 @@
     margin: 0 auto;
 }
 
+@media (max-width: 992px) {
+    .bodyContainer {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .BRBeforeMDScrn {
+        display: none;
+    }
+}
+
 @media (min-width: 991px) {
     .ContainerWidth {
         padding: 0 30px;
