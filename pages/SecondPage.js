@@ -9,15 +9,26 @@ import styles from '../styles/Turing/OnBoardingPages.module.css';
 
 export default function SecondPage() {
     const router = useRouter();
-    const [emailAddress, setEmailAddress] = useState('')
+    const [companySize, setCompanySize] = useState('')
+    const [capitalFunded, setCapitalFunded] = useState('')
+    const [IPOListed, setIPOListed] = useState('')
 
 
     function moveOnThirdboardingPages(e) {
         e.preventDefault()
-        // router.push('FirstPage');
-        router.push({
-            pathname: 'ThirdPage',
-        });
+        if (capitalFunded === '' || IPOListed === '') {
+            alert('Fill your complete details')
+        } else {
+            if (capitalFunded === 'No' && IPOListed === 'No') {
+                router.push({
+                    pathname: 'ThanksPage',
+                })
+            } else {
+                router.push({
+                    pathname: 'ThirdPageYes',
+                })
+            }
+        }
     }
 
     return (
@@ -42,26 +53,26 @@ export default function SecondPage() {
                                         type="text"
                                         defaultValue="Gmail"
                                         placeholder='email@emample.com'
-                                        className={`p-2`}
+                                        style={{ fontSize: '16px', lineHeight: '1.3', padding: '13px 12px' }}
                                     />
                                 </Form.Group>
                                 <Form.Group controlId="emailAddress" required style={{ width: '100%', marginTop: '30px' }}>
                                     <Form.Label><b>What is your company size:</b></Form.Label>
                                     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio1" style={{ border: '0', background: '#E5E5E5' }}>1-10</label>
+                                        <label class="btn btn-outline-primary mx-1" for="btnradio1" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCompanySize('1to10')}>1-10</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio2" style={{ border: '0', background: '#E5E5E5' }}>11-50</label>
+                                        <label class="btn btn-outline-primary mx-1" for="btnradio2" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCompanySize('11to50')}>11-50</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio3" style={{ border: '0', background: '#E5E5E5' }}>51-250</label>
+                                        <label class="btn btn-outline-primary mx-1" for="btnradio3" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCompanySize('51to250')}>51-250</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio4" style={{ border: '0', background: '#E5E5E5' }}>251-10K</label>
+                                        <label class="btn btn-outline-primary mx-1" for="btnradio4" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCompanySize('251to10K')}>251-10K</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio5" style={{ border: '0', background: '#E5E5E5' }}>10K+</label>
+                                        <label class="btn btn-outline-primary mx-1" for="btnradio5" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCompanySize('10KPlus')}>10K+</label>
                                     </div>
                                 </Form.Group>
                                 <Form.Group controlId="emailAddress" required style={{ width: '100%', marginTop: '30px' }}>
@@ -69,10 +80,10 @@ export default function SecondPage() {
                                     <br />
                                     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio6" style={{ border: '0', background: '#E5E5E5' }}>Yes</label>
+                                        <label class="btn btn-outline-primary mx-1" for="btnradio6" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCapitalFunded('Yes')}>Yes</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio7" style={{ border: '0', background: '#E5E5E5' }}>No</label>
+                                        <label class="btn btn-outline-primary mx-1" for="btnradio7" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCapitalFunded('No')}>No</label>
                                     </div>
                                 </Form.Group>
                                 <Form.Group controlId="emailAddress" required style={{ width: '100%', marginTop: '30px' }}>
@@ -80,10 +91,10 @@ export default function SecondPage() {
                                     <br />
                                     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio8" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio8" style={{ border: '0', background: '#E5E5E5' }}>Yes</label>
+                                        <label class="btn btn-outline-primary mx-1" for="btnradio8" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setIPOListed('Yes')}>Yes</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio9" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio9" style={{ border: '0', background: '#E5E5E5' }}>No</label>
+                                        <label class="btn btn-outline-primary mx-1" for="btnradio9" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setIPOListed('No')}>No</label>
                                     </div>
                                 </Form.Group>
                                 <div className="row mt-5">
@@ -95,6 +106,9 @@ export default function SecondPage() {
                                     </div>
                                 </div>
                             </form>
+                            <div class="progress mt-4" role="progressbar" aria-label="Basic example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style={{ height: '5px' }}>
+                                <div class="progress-bar" style={{ width: '40%' }}></div>
+                            </div>
                         </div>
                     </div>
                 </div>

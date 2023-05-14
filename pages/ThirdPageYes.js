@@ -6,8 +6,16 @@ import Header from "./Components/Header";
 import Form from 'react-bootstrap/Form';
 import Link from "next/link";
 import styles from '../styles/Turing/OnBoardingPages.module.css';
+import Checkbox from '@mui/material/Checkbox';
+import TextField from '@mui/material/TextField';
+import Autocomplete from '@mui/material/Autocomplete';
+import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
+import CheckBoxIcon from '@mui/icons-material/CheckBox';
 
-export default function FirstPage() {
+const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
+const checkedIcon = <CheckBoxIcon fontSize="small" />;
+
+export default function ThirdPageYes() {
     const router = useRouter();
     const [emailAddress, setEmailAddress] = useState('')
 
@@ -16,14 +24,22 @@ export default function FirstPage() {
         e.preventDefault()
         // router.push('FirstPage');
         router.push({
-            pathname: 'SecondPage',
+            pathname: 'ThanksPage',
         });
     }
+
+    const top100Films = [
+        { title: 'AI Services' },
+        { title: 'Application Engineering Services' },
+        { title: 'Cloud Services' },
+        { title: 'Managed Team' },
+        { title: 'Something Else' },
+    ];
 
     return (
         <div>
             <Head>
-                <title>FirstPage - Dreamstack</title>
+                <title>Third Page - Dreamstack</title>
                 <meta name="description" content="Turning - Dreamstack" />
             </Head>
             <Header />
@@ -31,28 +47,23 @@ export default function FirstPage() {
                 <div className={`col-md-6 mt-5`}>
                     <div className={`${styles.ContainerWidth}`}>
                         <br /><br /><br /><br /><br />
-                        <div className="mx-3">
-                            <h1>Your custom tech services</h1>
-                            <p className={`${styles.sectionBody}`}>To start building your solutions strategy, we need some contact details.</p>
+                        <div className="px-lg-5 px-3">
+                            <h1>Tell us about your service needs</h1>
+                            <p className={`${styles.sectionBody}`}>The more details you provide, the better we can customize your solution.</p>
                             <form onSubmit={(e) => moveOnSecondboardingPages(e)}>
-                                <Form.Group controlId="emailAddress" style={{ width: '100%' }}>
-                                    <Form.Label><b>Work Email Address:</b></Form.Label>
-                                    <Form.Control
-                                        required
-                                        type="email"
-                                        value={router.query.sendingEmailAddress}
-                                        placeholder='email@emample.com'
-                                        disabled
-                                        style={{ fontSize: '16px', lineHeight: '1.3', padding: '13px 12px' }}
-                                    />
+                                <Form.Group controlId="services" style={{ width: '100%' }}>
+                                    <Form.Label><b>Select service type(s):</b></Form.Label>
+                                    <Autocomplete multiple id="checkboxes-tags-demo" options={top100Films} disableCloseOnSelect getOptionLabel={(option) => option.title} renderOption={(props, option, { selected }) => (
+                                        <li {...props}>
+                                            <Checkbox icon={icon} checkedIcon={checkedIcon} style={{ marginRight: 8 }} checked={selected} /> {option.title}
+                                        </li>
+                                    )} style={{ width: '100%' }} renderInput={(params) => (
+                                        <TextField {...params} label="Select service type(s)" placeholder="Select service type(s)" />
+                                    )} />
                                 </Form.Group>
-                                <Form.Group controlId="phoneNumber" style={{ width: '100%', marginTop: '20px' }}>
-                                    <Form.Label><b>Phone Number:</b></Form.Label>
-                                    <Form.Control
-                                        required
-                                        type="text"
-                                        style={{ fontSize: '16px', lineHeight: '1.3', padding: '13px 12px' }}
-                                    />
+                                <Form.Group controlId="additionalInfo" style={{ width: '100%', marginTop: '20px' }}>
+                                    <Form.Label><b>Additional information (optional):</b></Form.Label>
+                                    <textarea className="form-control" rows="5" placeholder="Enter any additional details" style={{ width: "100%", padding: '10px' }}></textarea>
                                 </Form.Group>
                                 <div className="row mt-5">
                                     <div className="col-6">
@@ -64,7 +75,7 @@ export default function FirstPage() {
                                 </div>
                             </form>
                             <div class="progress mt-4" role="progressbar" aria-label="Basic example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style={{ height: '5px' }}>
-                                <div class="progress-bar" style={{ width: '10%' }}></div>
+                                <div class="progress-bar" style={{ width: '80%' }}></div>
                             </div>
                         </div>
                     </div>
