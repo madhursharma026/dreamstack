@@ -1,0 +1,54 @@
+.IntroSection {
+    margin-top: 58px;
+}
+
+.ContainerWidth {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.sectionTitle {
+    font-size: calc(30px + 1.25vw);
+}
+
+.sectionBody {
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+@media (min-width: 991px) {
+    .ContainerWidth {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0 60px;
+    }
+    .imgStyle {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .imgStyle {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .imgStyle {
+       width: 50%;
+       height: 50%;
+       margin: auto;
+    }
+}
+
+@media (min-width: 1199px) {
+    .imgStyle {
+        padding: 100px;
+    }
+}
+
+
