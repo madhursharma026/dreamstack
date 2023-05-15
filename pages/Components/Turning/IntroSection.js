@@ -54,22 +54,22 @@ export default function IntroSection() {
                             Trusted by 900+ companies, including
                         </h5>
                         <div className="row">
-                            <div className="col-md-2 col-4 mt-3">
+                            <div className="col-sm-2 col-3 mt-3 offset-sm-0 offset-1">
                                 <img src="https://pnglib.nyc3.cdn.digitaloceanspaces.com/uploads/2020/02/pepsi-logo_5e53a34c893dc.png" alt="#ImgNotFound" width='100%' />
                             </div>
-                            <div className="col-md-2 col-4 mt-3">
+                            <div className="col-sm-2 col-3 mt-4">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Dell_Logo.png/1200px-Dell_Logo.png" alt="#ImgNotFound" width='100%' />
                             </div>
-                            <div className="col-md-3 col-4 mt-3">
+                            <div className="col-sm-3 col-4 mt-4">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Johnson_and_Johnson_Logo.svg/2560px-Johnson_and_Johnson_Logo.svg.png" alt="#ImgNotFound" width='100%' />
                             </div>
-                            <div className="col-md-2 col-5 mt-3">
+                            <div className="col-sm-2 col-4 mt-3 offset-sm-0 offset-1">
                                 <img src="https://logodownload.org/wp-content/uploads/2018/02/reddit-logo-1.png" alt="#ImgNotFound" width='100%' />
                             </div>
-                            <div className="col-md-1 col-3 mt-3">
+                            <div className="col-sm-1 col-2 mt-4">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Volvo-Iron-Mark-Black.svg/1200px-Volvo-Iron-Mark-Black.svg.png" alt="#ImgNotFound" width='100%' />
                             </div>
-                            <div className="col-md-2 col-4 mt-3">
+                            <div className="col-sm-2 col-3 mt-sm-2 mt-4">
                                 <img src="https://logos-world.net/wp-content/uploads/2021/02/Disney-Logo.png" alt="#ImgNotFound" width='100%' />
                             </div>
                         </div>

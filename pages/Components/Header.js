@@ -115,11 +115,11 @@ function Header() {
                             <Link href='/TermsAndCondition' className={`px-3 ${styles.menuOptions}`}><b>Terms</b></Link>
                         </Nav>
                         <div className={`${styles.navOptionBeforeLG}`}>
-                            <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button>
+                            <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Contact Us</b></button>
                         </div>
                         <Nav className={`me-auto my-2 my-lg-0 ${styles.navOptionAfterLG}`} navbarScroll>
                             <div style={{ display: "flex", justifyContent: "center" }}>
-                                <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Download Dreamstack</b></button>
+                                <button type="button" className={`btn btn-outline-primary d-flex px-3 ${styles.downloadBtn}`}><b>Contact Us</b></button>
                             </div>
                             <Dropdown className="mt-4">
                                 <Dropdown.Toggle id="dropdown-basic" className="py-3" style={{ background: "transparent", width: "100%", color: "black", textAlign: "left", borderRadius: "0", borderColor: "black", borderRight: '0', borderLeft: "0", borderBottom: '0' }}>
