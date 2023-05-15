@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
@@ -17,15 +17,19 @@ const checkedIcon = <CheckBoxIcon fontSize="small" />;
 
 export default function ThirdPageYes() {
     const router = useRouter();
-    const [emailAddress, setEmailAddress] = useState('')
+    const [showAlert, setShowAlert] = useState(false)
+    const [serviceType, setServiceType] = useState('')
 
 
     function moveOnSecondboardingPages(e) {
         e.preventDefault()
         // router.push('FirstPage');
-        router.push({
-            pathname: 'ThanksPage',
-        });
+        if (serviceType === "") {
+            setShowAlert(true)
+        } else {
+            // router.push('ThanksPage')
+            router.push('MeetingPage')
+        }
     }
 
     const top100Films = [
@@ -53,13 +57,18 @@ export default function ThirdPageYes() {
                             <form onSubmit={(e) => moveOnSecondboardingPages(e)}>
                                 <Form.Group controlId="services" style={{ width: '100%' }}>
                                     <Form.Label><b>Select service type(s):</b></Form.Label>
-                                    <Autocomplete multiple id="checkboxes-tags-demo" options={top100Films} disableCloseOnSelect getOptionLabel={(option) => option.title} renderOption={(props, option, { selected }) => (
+                                    <Autocomplete multiple id="checkboxes-tags-demo" onChange={(e) => (setServiceType(e.target.value), setShowAlert(false))} options={top100Films} disableCloseOnSelect getOptionLabel={(option) => option.title} renderOption={(props, option, { selected }) => (
                                         <li {...props}>
                                             <Checkbox icon={icon} checkedIcon={checkedIcon} style={{ marginRight: 8 }} checked={selected} /> {option.title}
                                         </li>
                                     )} style={{ width: '100%' }} renderInput={(params) => (
                                         <TextField {...params} label="Select service type(s)" placeholder="Select service type(s)" />
                                     )} />
+                                    {showAlert ?
+                                        <div style={{ fontSize: '12px' }} className="text-danger">Please Fill out this field</div>
+                                        :
+                                        <></>
+                                    }
                                 </Form.Group>
                                 <Form.Group controlId="additionalInfo" style={{ width: '100%', marginTop: '20px' }}>
                                     <Form.Label><b>Additional information (optional):</b></Form.Label>

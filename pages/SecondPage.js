@@ -12,21 +12,28 @@ export default function SecondPage() {
     const [companySize, setCompanySize] = useState('')
     const [capitalFunded, setCapitalFunded] = useState('')
     const [IPOListed, setIPOListed] = useState('')
+    const [showCompanySizeAlert, setShowCompanySizeAlert] = useState(false)
+    const [showCapitalFundedAlert, setShowCapitalFundedAlert] = useState(false)
+    const [showIPOListedAlert, setShowIPOListedAlert] = useState(false)
 
 
     function moveOnThirdboardingPages(e) {
         e.preventDefault()
-        if (capitalFunded === '' || IPOListed === '') {
-            alert('Fill your complete details')
+        if (capitalFunded === '' || IPOListed === '' || companySize === '') {
+            if (companySize === '') {
+                setShowCompanySizeAlert(true)
+            }
+            if (capitalFunded === '') {
+                setShowCapitalFundedAlert(true)
+            }
+            if (IPOListed === '') {
+                setShowIPOListedAlert(true)
+            }
         } else {
             if (capitalFunded === 'No' && IPOListed === 'No') {
-                router.push({
-                    pathname: 'ThanksPage',
-                })
+                router.push('ThanksPage')
             } else {
-                router.push({
-                    pathname: 'ThirdPageYes',
-                })
+                router.push('ThirdPageYes')
             }
         }
     }
@@ -42,7 +49,7 @@ export default function SecondPage() {
                 <div className={`col-md-6 mt-5`}>
                     <div className={`${styles.ContainerWidth}`}>
                         <br /><br /><br /><br /><br />
-                        <div className="mx-3">
+                        <div className="px-lg-5 px-3">
                             <h1>Your custom tech services</h1>
                             <p className={`${styles.sectionBody}`}>To start building your solutions strategy, we need some contact details.</p>
                             <form onSubmit={(e) => moveOnThirdboardingPages(e)}>
@@ -60,42 +67,57 @@ export default function SecondPage() {
                                     <Form.Label><b>What is your company size:</b></Form.Label>
                                     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio1" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCompanySize('1to10')}>1-10</label>
+                                        <label class="btn mx-1" for="btnradio1" style={{ border: '0', background: `${companySize === "1to10" ? '#D5E2F9' : '#f2f2f2'}`, borderRadius: '5px' }} onClick={() => (setCompanySize('1to10'), setShowCompanySizeAlert(false))}>1-10</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio2" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCompanySize('11to50')}>11-50</label>
+                                        <label class="btn mx-1" for="btnradio2" style={{ border: '0', background: `${companySize === "11to50" ? '#D5E2F9' : '#f2f2f2'}`, borderRadius: '5px' }} onClick={() => (setCompanySize('11to50'), setShowCompanySizeAlert(false))}>11-50</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio3" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCompanySize('51to250')}>51-250</label>
+                                        <label class="btn mx-1" for="btnradio3" style={{ border: '0', background: `${companySize === "51to250" ? '#D5E2F9' : '#f2f2f2'}`, borderRadius: '5px' }} onClick={() => (setCompanySize('51to250'), setShowCompanySizeAlert(false))}>51-250</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio4" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCompanySize('251to10K')}>251-10K</label>
+                                        <label class="btn mx-1" for="btnradio4" style={{ border: '0', background: `${companySize === "251to10K" ? '#D5E2F9' : '#f2f2f2'}`, borderRadius: '5px' }} onClick={() => (setCompanySize('251to10K'), setShowCompanySizeAlert(false))}>251-10K</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio5" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCompanySize('10KPlus')}>10K+</label>
+                                        <label class="btn mx-1" for="btnradio5" style={{ border: '0', background: `${companySize === "10KPlus" ? '#D5E2F9' : '#f2f2f2'}`, borderRadius: '5px' }} onClick={() => (setCompanySize('10KPlus'), setShowCompanySizeAlert(false))}>10K+</label>
                                     </div>
+                                    {showCompanySizeAlert ?
+                                        <div style={{ fontSize: '12px' }} className="text-danger">Please Fill out this field</div>
+                                        :
+                                        <></>
+                                    }
                                 </Form.Group>
                                 <Form.Group controlId="emailAddress" required style={{ width: '100%', marginTop: '30px' }}>
                                     <Form.Label><b>Are you Seed or Venture Capital funded?:</b></Form.Label>
                                     <br />
                                     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio6" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCapitalFunded('Yes')}>Yes</label>
+                                        <label class="btn mx-1" for="btnradio6" style={{ border: '0', background: `${capitalFunded === "Yes" ? '#D5E2F9' : '#f2f2f2'}`, borderRadius: '5px' }} onClick={() => (setCapitalFunded('Yes'), setShowCapitalFundedAlert(false))}>Yes</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio7" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setCapitalFunded('No')}>No</label>
+                                        <label class="btn mx-1" for="btnradio7" style={{ border: '0', background: `${capitalFunded === "No" ? '#D5E2F9' : '#f2f2f2'}`, borderRadius: '5px' }} onClick={() => (setCapitalFunded('No'), setShowCapitalFundedAlert(false))}>No</label>
                                     </div>
+                                    {showCapitalFundedAlert ?
+                                        <div style={{ fontSize: '12px' }} className="text-danger">Please Fill out this field</div>
+                                        :
+                                        <></>
+                                    }
                                 </Form.Group>
                                 <Form.Group controlId="emailAddress" required style={{ width: '100%', marginTop: '30px' }}>
                                     <Form.Label><b>Are you a publicly listed/post IPO company?:</b></Form.Label>
                                     <br />
                                     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio8" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio8" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setIPOListed('Yes')}>Yes</label>
+                                        <label class="btn mx-1" for="btnradio8" style={{ border: '0', background: `${IPOListed === "Yes" ? '#D5E2F9' : '#f2f2f2'}`, borderRadius: '5px' }} onClick={() => (setIPOListed('Yes'), setShowIPOListedAlert(false))}>Yes</label>
 
                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio9" autocomplete="off" />
-                                        <label class="btn btn-outline-primary mx-1" for="btnradio9" style={{ border: '0', background: '#E5E5E5' }} onClick={() => setIPOListed('No')}>No</label>
+                                        <label class="btn mx-1" for="btnradio9" style={{ border: '0', background: `${IPOListed === "No" ? '#D5E2F9' : '#f2f2f2'}`, borderRadius: '5px' }} onClick={() => (setIPOListed('No'), setShowIPOListedAlert(false))}>No</label>
                                     </div>
+                                    {showIPOListedAlert ?
+                                        <div style={{ fontSize: '12px' }} className="text-danger">Please Fill out this field</div>
+                                        :
+                                        <></>
+                                    }
                                 </Form.Group>
                                 <div className="row mt-5">
                                     <div className="col-6">
